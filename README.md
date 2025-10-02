@@ -11,4 +11,13 @@ This repository is solely for the purpose of showcasing my practical skills and 
 - how to setup a Null Hypothesis and Alternate Hypothesis 
 - Perform the hypothesis testing and examine the statistical significance via the p-value and test statistics
  
-### Project 2: 
+### Project 2: Gentel Lentil Case Study - Optmisation and Simulation
+ File Name : Gentel_Lentil_Case_Study_Optimisation_and_Simulation.xlsx
+ 
+ Analyze the "The Gentle Lentil" case to compute expected monthly salary, its standard deviation, and the impact of a partnership—then compare outcomes against his consulting offer and running the restaurant solo.
+
+ Key learnings from this project where
+- Application of Optimization & Simulation Techniques – Using probability distributions, expected value, and variance to evaluate uncertain salary outcomes and compare different career options.
+- Decision-Making under Uncertainty – Understanding how risk (measured by standard deviation) affects real-world business choices beyond just average returns.
+- Scenario & Sensitivity Analysis – Evaluating different strategic options (consulting job, independent ownership, partnership) and testing how assumptions impact outcomes.
+- Integration of Quantitative & Qualitative Insights – Combining numerical results with managerial judgment to arrive at a well-supported recommendation.
