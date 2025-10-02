@@ -11,7 +11,7 @@ This repository is solely for the purpose of showcasing my practical skills and 
 - how to setup a Null Hypothesis and Alternate Hypothesis 
 - Perform the hypothesis testing and examine the statistical significance via the p-value and test statistics
  
-### Project 2: Gentel Lentil Case Study - Optmisation and Simulation
+### Project 2: Optmisation and Simulation : Gentel Lentil Case Study 
  File Name : Gentel_Lentil_Case_Study_Optimisation_and_Simulation.xlsx
  
  Analyze the "The Gentle Lentil" case to compute expected monthly salary, its standard deviation, and the impact of a partnership—then compare outcomes against his consulting offer and running the restaurant solo.
