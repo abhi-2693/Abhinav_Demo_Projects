@@ -21,3 +21,10 @@ This repository is solely for the purpose of showcasing my practical skills and 
 - Decision-Making under Uncertainty – Understanding how risk (measured by standard deviation) affects real-world business choices beyond just average returns.
 - Scenario & Sensitivity Analysis – Evaluating different strategic options (consulting job, independent ownership, partnership) and testing how assumptions impact outcomes.
 - Integration of Quantitative & Qualitative Insights – Combining numerical results with managerial judgment to arrive at a well-supported recommendation.
+
+### Project 3: Unsupervised Learning : Customer Behavioural Segmentation 
+ File Name : Mall_of_america.ipynb
+
+
+### Project 4: Unsupervised Learning : Company Segmentation on the bases of Performance
+ File Name : Sectoral_segment_part_1 and Sectoral_segment_part_2
