@@ -1,5 +1,5 @@
 # Demo Projects Repository 
-This is a Repository of the projects Assignment I have done over the course of my ISB AMPBA Program.
+This is a Repository of the Projects and Assignments I have done during my ISB AMPBA Program.
 This repository is solely for the purpose of showcasing my practical skills and knowledge gained throughout the course.
 
 ## Project List
