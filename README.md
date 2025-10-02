@@ -1,4 +1,4 @@
-# ISB_Abhinav
+# Demo Projects Repository 
 This is a Repository of the projects Assignment I have done over the course of my ISB AMPBA Program.
 This repository is solely for the purpose of showcasing my practical skills and knowledge gained throughout the course.
 
