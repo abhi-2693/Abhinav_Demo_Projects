@@ -55,4 +55,8 @@ File Name : Rec_sys.ipynb
  This scriot recommend the items to the customer based on the basket items (Did you forget to buy?) and there past purchase behavior using association rule and collaborative filtering.
  This was part of a Kaggle compition. Link - https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
 
+### Project 9: MLOps : AWS based App deployment - Practice
+File Name : many files
+
+Key learing was how setup AWS registery and deploy the streamlit app using docker and docker compose ina EC2 Instance running in AWS. This was Basic deployment coveing the steps with guidance from out instructor on the steps and code. 
 

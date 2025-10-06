@@ -1,0 +1,16 @@
+
+services:
+  bank-app:
+    build: .
+    container_name: bank_prediction_app
+    ports:
+      - ""  # Expose Streamlit web UI
+    volumes:
+      - .:/app        # Mount code into container for live reload
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: 
+      MYSQL_USER: 
+      MYSQL_PASSWORD: 
+
