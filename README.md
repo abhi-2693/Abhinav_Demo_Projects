@@ -60,3 +60,11 @@ File Name : many files
 
 Key learing was how setup AWS registery and deploy the streamlit app using docker and docker compose ina EC2 Instance running in AWS. This was Basic deployment coveing the steps with guidance from out instructor on the steps and code. 
 
+### Project 10: LDA, LR, Survival Analysis and PoisReg on the Telecomm Churn Data
+File Name : telecomm_churn.ipynb
+
+Key learnings from this project where
+- Application of LDA for classification od the Churn Telecomm customer
+- Application of LR for classification of the Churn Telecomm customer
+- Application of Survival Analysis for classification of the Churn Telecomm customer
+- Application of Poisson Regression for classification of the Churn Telecomm customer
