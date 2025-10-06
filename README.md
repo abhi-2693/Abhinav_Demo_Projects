@@ -39,3 +39,12 @@ This repository is solely for the purpose of showcasing my practical skills and 
  File Name : Causal_inference_project.Rmd and Causal_inference_project.html
 
  This report presents the analysis of wage data, focusing on the relationship between wages, IQ, and education. Our finding were that regression results suggest that both IQ and education have statistically significant effects on wages. The omitted variable bias check confirms the theoretical relationship between the simple and multiple regression coefficients.
+
+### Project 7: Supervised Learning Basics : Decision Tree and MNIST Classification
+ File Name : decision_tree.ipynb and tmnist.ipynb
+
+ Key learnings from this project where
+- Application of Decision Tree for classification and regression tasks
+- Application of Parzen Window for classification of Mnist Data
+- Application of KNN for classification of Mnist Data
+- Application of Perceptron for classification of Mnist Data
