@@ -48,3 +48,11 @@ This repository is solely for the purpose of showcasing my practical skills and 
 - Application of Parzen Window for classification of Mnist Data
 - Application of KNN for classification of Mnist Data
 - Application of Perceptron for classification of Mnist Data
+
+### Project 8: Basket Item Recommendation System
+File Name : Rec_sys.ipynb
+
+ This scriot recommend the items to the customer based on the basket items (Did you forget to buy?) and there past purchase behavior using association rule and collaborative filtering.
+ This was part of a Kaggle compition. Link - https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
+
+
