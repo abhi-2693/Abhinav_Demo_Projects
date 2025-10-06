@@ -1,0 +1,192 @@
+---
+title: "**Assignment SA2 - Term2 (ISB - AMPBA)**"
+author: "**Submitted by** : Abhinav Paul (PGID : 1242005)"
+date: "**Date** : 2025-07-18"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: cosmo
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+# **Introduction**
+This report presents the analysis of wage data, focusing on the relationship between wages, IQ, and education. The analysis follows the questions outlined in the assignment.
+
+# **Data Loading and Setup**
+First, let's load the necessary packages and the dataset.
+
+```{r load_libraries_data}
+# Load necessary packages
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+# Load the data
+wage2 <- read_csv("/Users/abhinavpaul/Desktop/Goals/Exec Edu/1. ISB AMPBA/Course Material/Term 2/1. SA2/Assignment/Final Submission/Wage2.csv")
+```
+
+# **Answers to Questions**
+
+## **Question 1 to 3**
+##### in the PDF Report
+
+## **Question 4**
+Here are the summary statistics for the variables wages and IQ in the given sample data
+
+```{r summary_stats}
+# Calculate summary statistics
+summary_wage <- wage2 %>%
+  summarise(
+    avg_wage = mean(wage, na.rm = TRUE),
+    min_wage = min(wage, na.rm = TRUE),
+    max_wage = max(wage, na.rm = TRUE)
+  )
+
+summary_IQ <- wage2 %>%
+  summarise(
+    avg_IQ = mean(IQ, na.rm = TRUE),
+    min_IQ = min(IQ, na.rm = TRUE),
+    max_IQ = max(IQ, na.rm = TRUE)
+  )
+```
+#### **Wage Stats Summary**
+```{r summary_wage}
+knitr::kable(summary_wage, caption = "Summary Wage")
+```
+
+#### **IQ Stats Summary**
+```{r summary_IQ}
+knitr::kable(summary_IQ, caption = "Summary IQ")
+```
+
+## **Question 5**
+### **Scatterplot of Wage vs IQ**
+```{r scatterplot}
+ggplot(wage2, aes(x = IQ, y = wage)) +
+  geom_point(color = 'blue', alpha = 0.6) +
+  geom_smooth(method = 'lm', se = FALSE, color = 'red') +
+  labs(title = "Relationship between Wage and IQ",
+       x = "IQ Score",
+       y = "Wage") +
+  theme_minimal()
+```
+
+### **Observations**
+##### **Direction** : Positive as the Wage is increasing with IQ metric
+##### **Linearity** : Roughly Linear. There is lot of error around the linear line and the the wage data points
+##### **Strength** : Weak to Moderate as the scatter plot is not tightly clustered around the Line
+
+
+## **Question 6**
+### **Correlation**
+```{r correlation}
+cor_iq_wage <- cor(wage2$IQ, wage2$wage, use = "complete.obs")
+cat("Correlation between IQ and wage:", round(cor_iq_wage, 4), "\n")
+```
+
+### **Observations**
+##### Given the Direction and strength in the scatter plot the correlation of 0.3725 makes sense to be positive but weak. There are lot of error in the Wage actual value from the Linear line of the Equation
+
+
+## **Question 7**
+### **Simple Linear Regression (Wage ~ IQ)**
+```{r simple_regression}
+model1 <- lm(wage ~ IQ, data = wage2)
+summary(model1)
+```
+
+### **Interpretaion of the coefficiants**
+#### **Intercept** 
+#####   **(Beta_hat_0 ~ -44.654)**: Predicted wage when IQ = 0 is estimated to be at - Rs 44,654 ( Although the P-Value = 0.588 is not statistically significant )
+#### **Coefficient of IQ**
+#####   **(Beta_hat_1 ~ 9.637)**: For every addition Increment of IQ by 1 we get a increase of Rs 9,367 in wage ( P-Value < 2.2e-16is statistically significant at 0.01 level )
+
+## **Question 8**
+### **Hypothesis Test**
+#### **Null hypothesis**: Beta_hat_1 = 0 i.e. IQ is not (linearly) associated with wage.
+#### **Alternative hypothesis**: Beta_hat_1 <> 0 i.e. IQ is (linearly) associated with wage.
+
+## **Question 9**
+#### Rejected null hypothesis at 5% significance level since p-value (2.2e-16) < alpha (0.05)
+
+## **Question 10**
+### **Multiple Regression (Wage ~ IQ + Education)**
+```{r multiple_regression}
+model2 <- lm(wage ~ IQ + educ, data = wage2)
+summary(model2)
+```
+
+## **Question 11**
+### **Education Statistics**
+```{r educ_stats}
+educ_stats <- wage2 %>%
+  summarise(
+    avg_educ = mean(educ, na.rm = TRUE),
+    min_educ = min(educ, na.rm = TRUE),
+    max_educ = max(educ, na.rm = TRUE)
+  )
+
+knitr::kable(educ_stats, caption = "Education Statistics")
+```
+
+## **Question 12**
+### **Interpretation of the coefficiants**
+#### **Intercept**
+#####   **(Beta_hat_0 ~ -270.2086)**: Predicted wage when IQ and education are both 0 is at - Rs 2,702,086
+#### **Coefficients**
+#####   **IQ (Beta_hat_1 ~ 6.3798)**: Each additional IQ point  keeping Education level constant increases wage by Rs 63,798
+#####   **Education (Beta_hat_2 ~ 41.1528)**: Each additional year of education keeping IQ constant increases wage by Rs 411,528
+
+## **Question 13**
+### **Omitted Variable Bias Check**
+```{r ovb_check}
+model3 <- lm(educ ~ IQ, data = wage2)
+summary(model3)
+
+delta_tilda_1 <- coef(model3)["IQ"]
+beta_hat_2 <- coef(model2)["educ"]
+beta_hat_1 <- coef(model2)["IQ"]
+beta_tilde_1 <- coef(model1)["IQ"]
+
+# beta_tilde_1 = beta_hat_1 + (beta_hat_2 * delta_tilda_1)
+lhs <- as.numeric(beta_tilde_1)
+rhs <- as.numeric(beta_hat_1 + beta_hat_2 * delta_tilda_1)
+
+ovb_results <- data.frame(
+  Left_Hand_Side = round(lhs,3),
+  Right_Hand_Side = round(rhs,3),
+  Match = (round(lhs,3)==round(rhs,3))
+)
+
+knitr::kable(ovb_results, caption = "Omitted Variable Bias Check")
+```
+
+## **Question 14**
+### **Predicted vs Actual Wage for First Individual**
+```{r prediction}
+predicted_wage <- predict(model2, newdata = wage2[1, ])
+actual_wage <- wage2$wage[1]
+difference <- actual_wage - predicted_wage
+
+prediction_results <- data.frame(
+  Predicted_Wage = predicted_wage,
+  Actual_Wage = actual_wage,
+  Difference = difference
+)
+
+knitr::kable(prediction_results, caption = "Prediction Results for First Individual")
+```
+
+### **Observation**
+##### **Predicted wage for first person (model 2 ~ Multiple Regression (Wage ~ IQ + Education))** : Rs. 855,225.8
+##### **Actual wage** : Rs. 700,000
+##### **Difference** : - Rs. 155,225.8 i.e. Individual is underpaid compared to model prediction
+
+# **Conclusion**
+This analysis explored the relationship between wages, IQ, and education. The regression results suggest that both IQ and education have statistically significant effects on wages. The omitted variable bias check confirms the theoretical relationship between the simple and multiple regression coefficients.

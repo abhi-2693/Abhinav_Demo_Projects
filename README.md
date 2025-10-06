@@ -28,3 +28,14 @@ This repository is solely for the purpose of showcasing my practical skills and 
 
 ### Project 4: Unsupervised Learning : Company Segmentation on the bases of Performance
  File Name : Sectoral_segment_part_1 and Sectoral_segment_part_2
+
+### Project 5: Big Data Management Basics
+ File Name : Big_data_management_basics.ipynb
+
+ Key learnings from this project where
+- the basics of Big Data Management PySpark and basiuc RDD operations and transformations
+
+### Project 6: Causal Inference checks
+ File Name : Causal_inference_project.Rmd and Causal_inference_project.html
+
+ This report presents the analysis of wage data, focusing on the relationship between wages, IQ, and education. Our finding were that regression results suggest that both IQ and education have statistically significant effects on wages. The omitted variable bias check confirms the theoretical relationship between the simple and multiple regression coefficients.
