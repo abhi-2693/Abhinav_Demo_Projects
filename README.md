@@ -67,6 +67,10 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 
 - `Mall_of_america.ipynb`
 
+**Overview**
+
+Unsupervised segmentation of mall visitors based on dwell-time/engagement features to identify distinct behavioral groups.
+
 **Key learnings**
 
 - K-means clustering on normalized dwell-time features to segment mall visitors by floor-level engagement
@@ -79,8 +83,17 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 
 **Files**
 
-- `Sectoral_segment_part_1`
-- `Sectoral_segment_part_2`
+- `Sectoral_segment_part_1.ipynb`
+- `Sectoral_segment_part_2.ipynb`
+
+**Overview**
+
+Company segmentation for the pharmaceutical sector using financial ratios and clustering-style analysis to group firms based on performance/characteristics. Data was collected from Screener.in and ratios were analyzed to compare companies across size categories.
+
+**Key learnings**
+
+- Feature engineering and ratio-based comparisons for company performance profiling
+- Segmenting companies into interpretable groups using unsupervised analysis and visualization
 
 ---
 
@@ -89,6 +102,10 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 **Files**
 
 - `Big_data_management_basics.ipynb`
+
+**Overview**
+
+Introductory notebook covering data ingestion and transformations using PySpark concepts (RDDs and related operations).
 
 **Key learnings**
 
@@ -107,6 +124,11 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 
 Analysis of wage data focusing on the relationship between wages, IQ, and education. Regression results suggest both IQ and education have statistically significant effects on wages. An omitted variable bias check confirms the theoretical relationship between simple and multiple regression coefficients.
 
+**Key learnings**
+
+- Built and interpreted simple vs multiple regression models to quantify effects and statistical significance
+- Verified omitted-variable-bias relationships between coefficients using theory-backed checks
+
 ---
 
 ### Project 7: Supervised Learning Basics — Decision Tree & MNIST Classification
@@ -115,6 +137,10 @@ Analysis of wage data focusing on the relationship between wages, IQ, and educat
 
 - `decision_tree.ipynb`
 - `tmnist.ipynb`
+
+**Overview**
+
+Supervised learning practice notebooks implementing multiple classification approaches (Decision Trees and classic non-parametric methods) on MNIST/tMNIST-style image data.
 
 **Key learnings**
 
@@ -138,6 +164,11 @@ Recommend items to a customer based on basket items ("Did you forget to buy?") a
 This was part of a Kaggle competition:
 https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
 
+**Key learnings**
+
+- Built recommendation logic using association rules and collaborative filtering concepts
+- Framed the problem as a real-world next-item recommendation task and evaluated iteratively (competition setting)
+
 ---
 
 ### Project 9: MLOps — AWS-based App Deployment (Practice)
@@ -152,6 +183,10 @@ https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
 - `requirements.txt`
 - `README.md`
 
+**Overview**
+
+Practice MLOps workflow to package and deploy a bank prediction Streamlit application using Docker/Docker Compose, then push the image to AWS ECR and run it on an EC2 instance (with AWS setup steps documented).
+
 **Key learnings**
 
 How to set up an AWS registry and deploy a Streamlit app using Docker and Docker Compose on an EC2 instance (basic guided deployment).
@@ -163,6 +198,10 @@ How to set up an AWS registry and deploy a Streamlit app using Docker and Docker
 **Files**
 
 - `telecomm_churn.ipynb`
+
+**Overview**
+
+Modeling and analysis on telecom churn data using multiple statistical/ML techniques (classification and time-to-event methods) to understand drivers of churn and evaluate predictive performance.
 
 **Key learnings**
 
