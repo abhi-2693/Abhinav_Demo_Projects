@@ -22,6 +22,7 @@ It is intended to showcase practical skills and applied learnings across statist
   - [Project 12: ML Supervised Learning Classifiers](#project-12-ml-supervised-learning-classifiers)
   - [Project 13: Forecasting — Stock Price Time Series (AAPL)](#project-13-forecasting--stock-price-time-series-aapl)
   - [Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j](#project-14-llms--rag--knowledge-graphenhanced-rag-with-wikipedia--neo4j)
+  - [Project 15: Marketing Analytics — Product Optimization, Segmentation & Ads](#project-15-marketing-analytics--product-optimization-segmentation--ads)
   - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](#project-18-forecasting-app--florida-energy-demand-forecasting-streamlit--docker)
 
 ---
@@ -296,6 +297,28 @@ Implemented a Knowledge Graph–enhanced Retrieval-Augmented Generation (RAG) sy
 - Building KG + vector hybrid retrieval using Neo4j, document chunking, and embeddings
 - Using LangChain components to orchestrate retrieval, graph queries, and response generation
 - Handling LLM/infra concerns such as rate limits and environment configuration
+
+---
+
+### Project 15: Marketing Analytics — Product Optimization, Segmentation & Ads
+
+**Files**
+
+- `mnca_part1_product_optimization.ipynb`
+- `mnca_part2_affinity_segmentation.ipynb`
+- `mnca_part3_paid_search_bid_optimization.ipynb`
+- `mnca_part4_display_advertising_assessment.ipynb`
+
+**Overview**
+
+Multi-part Marketing and Customer Analytics assignment covering product optimization, affinity-based segmentation, paid search bid optimization, and display advertising assessment.
+
+**Key learnings**
+
+- Translating customer preference/choice-style data into product and segmentation insights
+- Cluster/segmentation analysis using engineered features and interpretable segment profiles
+- Optimization under constraints for marketing spend (e.g., bid optimization)
+- Evaluating advertising performance metrics and trade-offs
 
 ---
 ### Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)
