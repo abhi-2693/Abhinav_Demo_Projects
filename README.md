@@ -3,9 +3,10 @@
 This repository contains projects and assignments completed during my ISB AMPBA program.
 It is intended to showcase practical skills and applied learnings across statistics, optimization, and machine learning.
 
+---
+
 ## Table of Contents
 
-- [Project Index](#project-index)
 - [Projects](#projects)
   - [Project 1: Statistical Analysis — Basics of Hypothesis Testing & Understanding the p-value](#project-1-statistical-analysis--basics-of-hypothesis-testing--understanding-the-p-value)
   - [Project 2: Optimization & Simulation — Gentle Lentil Case Study](#project-2-optimization--simulation--gentle-lentil-case-study)
@@ -20,11 +21,7 @@ It is intended to showcase practical skills and applied learnings across statist
   - [Project 11: Deep Learning Basics — Practical Use Cases](#project-11-deep-learning-basics--practical-use-cases)
   - [Project 12: ML Supervised Learning Classifiers](#project-12-ml-supervised-learning-classifiers)
 
-## Project Index
-
-- [Project 01: Statistical Analysis — Hypothesis Testing](./Project%2001%20:%20Statictical%20Analysis%20:%20Basics%20of%20Hypothesis%20Testing%20and%20undterstanding%20the%20p-value/)
-- [Project 02: Optimization & Simulation — Gentle Lentil](./Project%2002:%20Optmisation%20and%20Simulation%20:%20Gentel%20Lentil%20Case%20Study/)
-- [Project 03: Unsupervised Learning — Customer Segmentation](./Project%2003:%20Unsupervised%20Learning%20:%20Customer%20Behavioural%20Segmentation/)
+---
 
 ## Projects
 
@@ -43,6 +40,8 @@ Given sample data, the task was to perform EDA and hypothesis testing, then exam
 - How to set up a Null Hypothesis and Alternate Hypothesis
 - Perform hypothesis testing and examine statistical significance via the p-value and test statistics
 
+---
+
 ### Project 2: Optimization & Simulation — Gentle Lentil Case Study
 
 **Files**
@@ -60,6 +59,8 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 - Scenario & sensitivity analysis across strategic options
 - Integration of quantitative results with managerial judgment
 
+---
+
 ### Project 3: Unsupervised Learning — Customer Behavioral Segmentation
 
 **Files**
@@ -72,12 +73,16 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 - Use of the Elbow method and Silhouette score to select the number of clusters and interpret cluster profiles
 - Behavioral cuts such as filtering employees/short visits, comparing Apple vs non-Apple users, and identifying high-traffic sections
 
+---
+
 ### Project 4: Unsupervised Learning — Company Segmentation based on Performance
 
 **Files**
 
 - `Sectoral_segment_part_1`
 - `Sectoral_segment_part_2`
+
+---
 
 ### Project 5: Big Data Management Basics
 
@@ -89,6 +94,8 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 
 - Basics of big data management with PySpark and basic RDD operations and transformations
 
+---
+
 ### Project 6: Causal Inference Checks
 
 **Files**
@@ -99,6 +106,8 @@ Analyze "The Gentle Lentil" case to compute expected monthly salary, its standar
 **Overview**
 
 Analysis of wage data focusing on the relationship between wages, IQ, and education. Regression results suggest both IQ and education have statistically significant effects on wages. An omitted variable bias check confirms the theoretical relationship between simple and multiple regression coefficients.
+
+---
 
 ### Project 7: Supervised Learning Basics — Decision Tree & MNIST Classification
 
@@ -114,6 +123,8 @@ Analysis of wage data focusing on the relationship between wages, IQ, and educat
 - Application of KNN for classification of MNIST data
 - Application of Perceptron for classification of MNIST data
 
+---
+
 ### Project 8: Basket Item Recommendation System
 
 **Files**
@@ -126,6 +137,8 @@ Recommend items to a customer based on basket items ("Did you forget to buy?") a
 
 This was part of a Kaggle competition:
 https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
+
+---
 
 ### Project 9: MLOps — AWS-based App Deployment (Practice)
 
@@ -143,6 +156,8 @@ https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
 
 How to set up an AWS registry and deploy a Streamlit app using Docker and Docker Compose on an EC2 instance (basic guided deployment).
 
+---
+
 ### Project 10: LDA, LR, Survival Analysis & Poisson Regression on Telecom Churn
 
 **Files**
@@ -155,6 +170,8 @@ How to set up an AWS registry and deploy a Streamlit app using Docker and Docker
 - Application of logistic regression for classification of telecom churn customers
 - Application of survival analysis for classification of telecom churn customers
 - Application of Poisson regression for classification of telecom churn customers
+
+---
 
 ### Project 11: Deep Learning Basics — Practical Use Cases
 
@@ -176,6 +193,8 @@ A set of hands-on deep learning notebooks covering fundamentals (forward/backpro
 - Applied sequence modeling with RNNs for text
 - Used transfer learning with pretrained CNNs (fine-tuning + augmentation) for image classification
 - Learned to diagnose overfitting via validation performance
+
+---
 
 ### Project 12: ML Supervised Learning Classifiers
 
