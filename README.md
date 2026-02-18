@@ -22,7 +22,6 @@ It is intended to showcase practical skills and applied learnings across statist
 - [Project 13: Forecasting — Stock Price Time Series (AAPL)](./Project%2013:%20Stock%20Forecasting%20Analysis/)
 - [Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j](./Project%2014:%20Knowledge%20Graph%E2%80%93enhanced%20RAG%20system%20using%20Wikipedia%20data/)
 - [Project 15: Marketing Analytics — Product Optimization, Segmentation & Ads](./Project%2015:%20Marketing%20and%20Customer%20Analytics/)
-- [Project 16: Predictive Analytics (R) — Aravind Screening vs Surgery Modeling](./Project%2016:%20Predictive%20Analytics%20(R)%20-%20Aravind%20Screening%20vs%20Surgery%20Modeling/)
 - [Project 16: Predictive Analytics (R) — Aravind Screening vs Surgery Modeling](./Project%2016:%20Aravind%20Screening%20Surgery%20Interaction%20Model/)
 - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](./Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting/)
 
