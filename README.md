@@ -100,6 +100,9 @@ Key learnings from this project where
 
  A set of hands-on deep learning notebooks covering fundamentals (forward/backprop) and common applied patterns (classification with dense networks, RNNs, and transfer learning).
 
+ Key learnings from this project where: 
+ Built intuition for forward propagation, loss gradients, and backprop parameter updates; trained neural networks for churn prediction and spam detection; applied sequence modeling with RNNs for text; used transfer learning with pretrained CNNs (fine-tuning + augmentation) for image classification; and learned to diagnose overfitting via validation performance.
+
 ### Project 12: ML Supervised Learning Classifiers
  File Name : 
  - Different Types of Classifier.ipynb
@@ -111,4 +114,7 @@ Key learnings from this project where
  - Pair-wise linear SVM using Fisher-score-based top feature selection
  
  Preprocessing + evaluation includes removing all-zero columns, label encoding, normalization to [0,1], a stratified 70/30 train-test split, and accuracy-based comparison.
+
+ Key learnings from this project where: 
+ Ran a structured classifier benchmark by cleaning features (zero-variance removal), encoding labels, scaling inputs, and using stratified splits for fair evaluation. Compared MLP, SVM (linear/polynomial/RBF), and Random Forest while tuning model complexity (parameters, support vectors, depth/trees). Implemented Fisher-score feature selection for pairwise SVMs to improve separability.
 
