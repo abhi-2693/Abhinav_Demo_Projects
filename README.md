@@ -20,6 +20,7 @@ It is intended to showcase practical skills and applied learnings across statist
   - [Project 10: LDA, LR, Survival Analysis & Poisson Regression on Telecom Churn](#project-10-lda-lr-survival-analysis--poisson-regression-on-telecom-churn)
   - [Project 11: Deep Learning Basics — Practical Use Cases](#project-11-deep-learning-basics--practical-use-cases)
   - [Project 12: ML Supervised Learning Classifiers](#project-12-ml-supervised-learning-classifiers)
+  - [Project 13: Forecasting — Stock Price Time Series (AAPL)](#project-13-forecasting--stock-price-time-series-aapl)
   - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](#project-18-forecasting-app--florida-energy-demand-forecasting-streamlit--docker)
 
 ---
@@ -258,6 +259,25 @@ Preprocessing and evaluation includes removing all-zero columns, label encoding,
 - Structured classifier benchmarking with consistent preprocessing and stratified splits
 - Comparison of MLP, SVM (linear/polynomial/RBF), and Random Forest while tuning model complexity
 - Fisher-score feature selection for pairwise SVMs to improve separability
+
+---
+
+### Project 13: Forecasting — Stock Price Time Series (AAPL)
+
+**Files**
+
+- `Stock_forecasting_aapl.ipynb`
+
+**Overview**
+
+Time series analysis and forecasting exercise on Apple Inc. (AAPL) stock prices using Yahoo Finance market data (Jan 2020–Aug 2025) and a 365-day forecast horizon.
+
+**Key learnings**
+
+- End-to-end forecasting workflow: data acquisition, decomposition/stationarity checks, and model evaluation
+- Compared multiple forecasting approaches (ARIMA-style methods, tree-based regression, Prophet)
+- Time-series cross-validation and error metrics (MAE/MSE/MAPE) for model selection
+
 ---
 
 ### Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)
