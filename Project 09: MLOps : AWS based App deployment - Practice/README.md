@@ -1,4 +1,16 @@
+# Project 09: MLOps — AWS-based App Deployment (Practice)
 
+## Situation / Objective
+Deploying an ML application requires reproducible packaging, consistent runtime dependencies, and a clear deployment path. The objective of this practice project is to containerize a simple bank prediction Streamlit app and deploy it on AWS infrastructure.
+
+## Task
+- Run the application locally using Docker Compose.
+- Containerize the app and push the image to **AWS ECR**.
+- Pull and run the image on an **EC2** instance.
+- (Optional/extension) Connect to an **RDS MySQL** instance for persisting outputs.
+
+## Actions
+====================================================================================
 ## Please note due to Local Laptop memory constrained and Since its not explicitly 
 ## asked I have skipped the Saving the model Output steps to MySQL code in this
 ## assignment of MLOps flow
@@ -140,3 +152,14 @@ Open in browser:
 
 http://<*****not sharing the details in submission*****>:8501
 
+## Repository contents
+- `api.py`
+- `bank_training.py`
+- `streamlite_bank.py`
+- `Dockerfile`
+- `docker-compose.yaml`
+- `requirements.txt`
+
+## Results / Summary
+- Achieved a complete container-based deployment workflow: local run → ECR push → EC2 pull/run.
+- Documented a practical AWS deployment checklist (EC2, ECR, optional RDS).
