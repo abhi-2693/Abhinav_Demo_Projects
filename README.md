@@ -23,6 +23,7 @@ It is intended to showcase practical skills and applied learnings across statist
 - [Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j](./Project%2014:%20Knowledge%20Graph%E2%80%93enhanced%20RAG%20system%20using%20Wikipedia%20data/)
 - [Project 15: Marketing Analytics — Product Optimization, Segmentation & Ads](./Project%2015:%20Marketing%20and%20Customer%20Analytics/)
 - [Project 16: Predictive Analytics (R) — Aravind Screening vs Surgery Modeling](./Project%2016:%20Aravind%20Screening%20Surgery%20Interaction%20Model/)
+- [Project 17: NLP — Transformers, RAG, Web Scraping & Text-to-SQL](./Project%2017/)
 - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](./Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting/)
 
 ---
@@ -340,6 +341,30 @@ R-based predictive modeling assignment analyzing how paid and free screening vol
 - Turning regression coefficients into business-relevant scenario impacts
 
 ---
+
+### Project 17: NLP — Transformers, RAG, Web Scraping & Text-to-SQL
+
+**Files**
+
+- `nlp_q1_bert_text_classification.ipynb`
+- `nlp_q2a_wikipedia_index_prime_ministers_llamaindex.ipynb`
+- `nlp_q2b_rag_evaluation_prime_ministers.ipynb`
+- `nlp_q3a_web_scraping_espn_scorecard_to_sqlite.ipynb`
+- `nlp_q3b_text_to_sql_llamaindex_groq.ipynb`
+
+**Overview**
+
+Collection of NLP assignment notebooks spanning transformer-based classification, Wikipedia indexing + RAG, RAG evaluation, web scraping into structured storage, and natural-language querying over SQL.
+
+**Key learnings**
+
+- Fine-tuning / using transformer models (BERT) for sequence classification
+- Building a domain-specific RAG index (Wikipedia ingestion, chunking, embeddings)
+- Evaluating RAG quality using similarity-based scoring approaches
+- Practical data extraction pipelines (scraping to SQLite) and text-to-SQL style querying
+
+---
+
 ### Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)
 
 **Files**

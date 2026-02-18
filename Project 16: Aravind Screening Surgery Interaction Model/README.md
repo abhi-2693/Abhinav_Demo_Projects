@@ -22,5 +22,5 @@ Aravind’s operational outcomes (total surgeries) can depend on outreach and sc
 - Identified that increasing paid/free screening is associated with higher surgeries, but interaction terms indicate diminishing returns when both are increased together.
 
 ## Repository contents
-- `pnda_assignment_aravind_screening_surgery_modeling.Rmd`
-- `pnda_assignment_aravind_screening_surgery_modeling.html`
+- `Aravind_screening_surgery_modeling.Rmd`
+- `Aravind_screening_surgery_modeling.html`
