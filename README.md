@@ -101,7 +101,11 @@ Key learnings from this project where
  A set of hands-on deep learning notebooks covering fundamentals (forward/backprop) and common applied patterns (classification with dense networks, RNNs, and transfer learning).
 
  Key learnings from this project where: 
- Built intuition for forward propagation, loss gradients, and backprop parameter updates; trained neural networks for churn prediction and spam detection; applied sequence modeling with RNNs for text; used transfer learning with pretrained CNNs (fine-tuning + augmentation) for image classification; and learned to diagnose overfitting via validation performance.
+ - Built intuition for forward propagation, loss gradients, and backprop parameter updates
+ - Trained neural networks for churn prediction and spam detection
+ - Applied sequence modeling with RNNs for text
+ - Used transfer learning with pretrained CNNs (fine-tuning + augmentation) for image classification
+ - Learned to diagnose overfitting via validation performance.
 
 ### Project 12: ML Supervised Learning Classifiers
  File Name : 
@@ -116,5 +120,25 @@ Key learnings from this project where
  Preprocessing + evaluation includes removing all-zero columns, label encoding, normalization to [0,1], a stratified 70/30 train-test split, and accuracy-based comparison.
 
  Key learnings from this project where: 
- Ran a structured classifier benchmark by cleaning features (zero-variance removal), encoding labels, scaling inputs, and using stratified splits for fair evaluation. Compared MLP, SVM (linear/polynomial/RBF), and Random Forest while tuning model complexity (parameters, support vectors, depth/trees). Implemented Fisher-score feature selection for pairwise SVMs to improve separability.
+ - Ran a structured classifier benchmark by cleaning features (zero-variance removal), encoding labels, scaling inputs, and using stratified splits for fair evaluation.
+ - Compared MLP, SVM (linear/polynomial/RBF), and Random Forest while tuning model complexity (parameters, support vectors, depth/trees).
+ - Implemented Fisher-score feature selection for pairwise SVMs to improve separability.
 
+ File Name : Group13.Rmd and Group13.html
+
+ Analysis and modeling work (including interaction effects) with interpretation of elasticities and model diagnostics in an R Markdown report.
+
+### Project 17: NLP Assignment (Term 4) — Multiple Problem Notebooks (Group 13)
+ File Name : q1.ipynb, q2a.ipynb, q2b.ipynb, q3a.ipynb, q3b.ipynb
+
+ A collection of NLP tasks including transformer-based classification (BERT) and information retrieval/indexing workflows (e.g., LlamaIndex over Wikipedia), plus additional sub-problems.
+
+### Project 18: Florida Energy Demand Forecasting — Full Project (App + Docker)
+ File Name : energy-demand-forecasting_full_project/ (app.py, src/, requirements.txt, Dockerfile)
+
+ End-to-end time-series demand forecasting project with training pipeline, a Streamlit UI for forecasts, and Dockerized deployment setup.
+
+### Project 19: LGAI Assignment (Term 5) — Deep Learning / Vision Notebooks (Group 10)
+ File Name : q1.ipynb, q2.ipynb, q3.ipynb, q4.ipynb
+
+ A set of assignment notebooks spanning multiple parts (Part B and Part C) and an applied computer vision workflow (object detection dataset setup, training, and evaluation).
