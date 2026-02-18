@@ -20,6 +20,7 @@ It is intended to showcase practical skills and applied learnings across statist
   - [Project 10: LDA, LR, Survival Analysis & Poisson Regression on Telecom Churn](#project-10-lda-lr-survival-analysis--poisson-regression-on-telecom-churn)
   - [Project 11: Deep Learning Basics — Practical Use Cases](#project-11-deep-learning-basics--practical-use-cases)
   - [Project 12: ML Supervised Learning Classifiers](#project-12-ml-supervised-learning-classifiers)
+  - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](#project-18-forecasting-app--florida-energy-demand-forecasting-streamlit--docker)
 
 ---
 
