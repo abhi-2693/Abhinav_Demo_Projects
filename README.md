@@ -304,10 +304,10 @@ Implemented a Knowledge Graph–enhanced Retrieval-Augmented Generation (RAG) sy
 
 **Files**
 
-- `mnca_part1_product_optimization.ipynb`
-- `mnca_part2_affinity_segmentation.ipynb`
-- `mnca_part3_paid_search_bid_optimization.ipynb`
-- `mnca_part4_display_advertising_assessment.ipynb`
+- `Product_optimization.ipynb`
+- `Affinity_segmentation.ipynb`
+- `Paid_search_bid_optimization.ipynb`
+- `Display_advertising_assessment.ipynb`
 
 **Overview**
 
