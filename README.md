@@ -22,6 +22,7 @@ It is intended to showcase practical skills and applied learnings across statist
 - [Project 13: Forecasting — Stock Price Time Series (AAPL)](./Project%2013:%20Stock%20Forecasting%20Analysis/)
 - [Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j](./Project%2014:%20Knowledge%20Graph%E2%80%93enhanced%20RAG%20system%20using%20Wikipedia%20data/)
 - [Project 15: Marketing Analytics — Product Optimization, Segmentation & Ads](./Project%2015:%20Marketing%20and%20Customer%20Analytics/)
+- [Project 16: Predictive Analytics (R) — Aravind Screening vs Surgery Modeling](./Project%2016/)
 - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](./Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting/)
 
 ---
@@ -318,6 +319,25 @@ Multi-part Marketing and Customer Analytics assignment covering product optimiza
 - Cluster/segmentation analysis using engineered features and interpretable segment profiles
 - Optimization under constraints for marketing spend (e.g., bid optimization)
 - Evaluating advertising performance metrics and trade-offs
+
+---
+
+### Project 16: Predictive Analytics (R) — Aravind Screening vs Surgery Modeling
+
+**Files**
+
+- `Aravind_screening_surgery_modeling.Rmd`
+- `Aravind_screening_surgery_modeling.html`
+
+**Overview**
+
+R-based predictive modeling assignment analyzing how paid and free screening volumes (including interaction effects) relate to total surgeries, using log transformations and regression modeling.
+
+**Key learnings**
+
+- Log-linear regression modeling and interpretation of elasticities
+- Interaction effects and model selection using adjusted R-squared
+- Turning regression coefficients into business-relevant scenario impacts
 
 ---
 ### Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)

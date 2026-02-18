@@ -1,0 +1,102 @@
+---
+3title: "Aravind Screening Surgery Model"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Load necessary packages
+library(readxl)
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(stargazer)
+```
+#### Abhinav Paul
+
+### Part 3.1
+```{r Load Data from Local csv}
+# Load the data
+exhibits <- read_excel("/Users/abhinavpaul/Desktop/Goals/Exec Edu/1. ISB AMPBA/Course Material/Term 4/3. PnDA/Assignment/Exhibits.xlsx")
+summary(exhibits)
+# Excluding the year 1976 with 0 values in the columns as instructed in the Assignment
+exhibits <- exhibits[exhibits$Year != 1976, ] 
+exhibits
+```
+
+```{r Transformation}
+# Transformation
+exhibits$ln_total <- log(exhibits$Total_Surgery)
+exhibits$ln_pay_scr <- log(exhibits$Paying_Screening)
+exhibits$ln_free_scr <- log(exhibits$Free_Screening)
+summary(exhibits)
+```
+
+```{r Model}
+# - Model without Interation -
+model_without_interaction <- lm(ln_total ~ ln_pay_scr + ln_free_scr + Year, data = exhibits)
+summary(model_without_interaction)
+
+# - Model with Interation -
+model_with_interaction <- lm(ln_total ~ (ln_pay_scr * ln_free_scr) + Year, data = exhibits)
+summary(model_with_interaction)
+```
+Multiple R-squared in R’s lm() output is the proportion of variance in the dependent variable that is explained by your model. So in our model above the model is explaining 99.73% of the variance in the value of log total surgery using the the 3 metrics ( independent input variable).
+
+We can say that in both the models the total surgery for Aravind's Eye Surgery services are largely dependent on the Paid and Free Screening and with more screening the total surgery also increases. Even the P-values of the models are low which means they are statistically significant.
+
+```{r Mode Selection}
+if (summary(model_with_interaction)$adj.r.squared >
+    summary(model_without_interaction)$adj.r.squared) {
+  
+  model <- model_with_interaction
+  print("Selected model_with_interaction (higher adjusted R-squared)")
+  
+} else {
+  
+  model <- model_without_interaction
+  print("Selected model_without_interaction (higher or equal adjusted R-squared)")
+}
+```
+
+### Part 3.2
+```{r Elasticity Interpretation}
+# Coefficient of the Model
+beta_pay <- coef(model)["ln_pay_scr"]
+beta_free <- coef(model)["ln_free_scr"]
+beta_pay_free <- coef(model)["ln_pay_scr:ln_free_scr"]
+
+cat(paste("Coefficient for Log of Pay Screening :", beta_pay, "\nCoefficient for Log of Free Screening :", beta_free, "\nCoefficient for interaction term :", beta_pay_free))
+```
+
+Key Coefficients and their interpretation
+
+1. *ln_pay_scr	( beta1 = 3.60 )*	: When free screens are held constant, a 1% increase in paid screens is associated with a 3.6% increase in attendance, before considering the interaction.
+2. *ln_free_scr	( beta2 = 2.77 )* :	Similarly, when paid screens are held constant, a 1% increase in free screens is associated with a 2.8% increase in attendance, before the interaction.
+3. *ln_pay_scr:ln_free_scr	( beta3 = -0.25 )* :	Interaction term. The positive effects of paid and free screens diminish when both are increased together. The methods overlap in who they reach.
+
+so we can say Surgeries grows when you increase paid or free screenings. Both strategies work. However, they compete for influence.
+If you already offer lots of free screenings, adding more paid ones helps less, and vice versa. The relationship between the two is not simply additive; it levels off when both rise.
+
+In this model, time no longer predicts attendance once you account for how screening types interact.
+
+#### Part 3.3
+```{r Percentage Change Effects}
+# Percentage Change effects
+increase_pct = 0.15
+pct_change_pay <- beta_pay * increase_pct * 100
+pct_change_free <- beta_free * increase_pct * 100
+pct_change_pay_free <- beta_pay_free * increase_pct * 100
+
+cat(paste("Percentage Change effects on Logs of Pay Screening :", pct_change_pay, "\nPercentage Change effects on Logs of Free Screening :", pct_change_free, "\nPercentage Change effects on Interaction term :", pct_change_pay_free))
+```
+
+A 15% increase in paid screenings increases total surgeries by approximately 54%, whereas a 15% increase in free screenings raises them by approximately 42%. Paid elasticity is slightly higher, suggesting Aravind’s total surgical demand is more responsive to expansion in paid screening volumes, though free screening growth still drives significant outreach-based volume.
+
+#### Part 3.4
+```{r Coefficient of Model - Year}
+# Coefficient of Model - Year
+coef(summary(model))["Year",]
+```
+*Year	(beta4 = 0.047) (not significant)*	: Time does not shows a clear upward or downward trend once the interaction is accounted for.
