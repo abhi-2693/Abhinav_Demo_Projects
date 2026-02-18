@@ -21,6 +21,7 @@ It is intended to showcase practical skills and applied learnings across statist
   - [Project 11: Deep Learning Basics — Practical Use Cases](#project-11-deep-learning-basics--practical-use-cases)
   - [Project 12: ML Supervised Learning Classifiers](#project-12-ml-supervised-learning-classifiers)
   - [Project 13: Forecasting — Stock Price Time Series (AAPL)](#project-13-forecasting--stock-price-time-series-aapl)
+  - [Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j](#project-14-llms--rag--knowledge-graphenhanced-rag-with-wikipedia--neo4j)
   - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](#project-18-forecasting-app--florida-energy-demand-forecasting-streamlit--docker)
 
 ---
@@ -280,6 +281,23 @@ Time series analysis and forecasting exercise on Apple Inc. (AAPL) stock prices 
 
 ---
 
+### Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j
+
+**Files**
+
+- `kg_rag_wikipedia_neo4j.ipynb`
+
+**Overview**
+
+Implemented a Knowledge Graph–enhanced Retrieval-Augmented Generation (RAG) system using Wikipedia data. The pipeline loads Wikipedia articles, creates a Neo4j-backed graph + vector index, and queries via an LLM.
+
+**Key learnings**
+
+- Building KG + vector hybrid retrieval using Neo4j, document chunking, and embeddings
+- Using LangChain components to orchestrate retrieval, graph queries, and response generation
+- Handling LLM/infra concerns such as rate limits and environment configuration
+
+---
 ### Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)
 
 **Files**
