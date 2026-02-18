@@ -346,11 +346,11 @@ R-based predictive modeling assignment analyzing how paid and free screening vol
 
 **Files**
 
-- `nlp_q1_bert_text_classification.ipynb`
-- `nlp_q2a_wikipedia_index_prime_ministers_llamaindex.ipynb`
-- `nlp_q2b_rag_evaluation_prime_ministers.ipynb`
-- `nlp_q3a_web_scraping_espn_scorecard_to_sqlite.ipynb`
-- `nlp_q3b_text_to_sql_llamaindex_groq.ipynb`
+- `bert_text_classification.ipynb`
+- `wikipedia_index_prime_ministers_llamaindex.ipynb`
+- `rag_evaluation_prime_ministers.ipynb`
+- `web_scraping_espn_scorecard_to_sqlite.ipynb`
+- `text_to_sql_llamaindex_groq.ipynb`
 
 **Overview**
 
