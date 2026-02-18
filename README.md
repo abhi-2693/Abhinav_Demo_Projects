@@ -1,125 +1,202 @@
-# Demo Projects Repository 
-This is a Repository of the Projects and Assignments I have done during my ISB AMPBA Program.
-This repository is solely for the purpose of showcasing my practical skills and knowledge gained throughout the course.
+# Demo Projects Repository
 
-## Project List
+This repository contains projects and assignments completed during my ISB AMPBA program.
+It is intended to showcase practical skills and applied learnings across statistics, optimization, and machine learning.
 
-### Project 1: Statictical Analysis : Basics of Hypothesis Testing and undterstanding the p-value  
- File Name : 
- - Statistical_analysis_Hypothesis Testing_basics.R
+## Table of Contents
 
- In this I was given sample data and we have to perform the EDA, hypothesis testing on the data and examine the statistical significance via the p-value and test statistics. Key Learning from this project where 
- - how to setup a Null Hypothesis and Alternate Hypothesis 
- - Perform the hypothesis testing and examine the statistical significance via the p-value and test statistics
- 
-### Project 2: Optmisation and Simulation : Gentel Lentil Case Study 
- File Name : 
- - Gentel_Lentil_Case_Study_Optimisation_and_Simulation.xlsx
- 
- Analyze the "The Gentle Lentil" case to compute expected monthly salary, its standard deviation, and the impact of a partnership—then compare outcomes against his consulting offer and running the restaurant solo.
+- [Project Index](#project-index)
+- [Projects](#projects)
+  - [Project 1: Statistical Analysis — Basics of Hypothesis Testing & Understanding the p-value](#project-1-statistical-analysis--basics-of-hypothesis-testing--understanding-the-p-value)
+  - [Project 2: Optimization & Simulation — Gentle Lentil Case Study](#project-2-optimization--simulation--gentle-lentil-case-study)
+  - [Project 3: Unsupervised Learning — Customer Behavioral Segmentation](#project-3-unsupervised-learning--customer-behavioral-segmentation)
+  - [Project 4: Unsupervised Learning — Company Segmentation based on Performance](#project-4-unsupervised-learning--company-segmentation-based-on-performance)
+  - [Project 5: Big Data Management Basics](#project-5-big-data-management-basics)
+  - [Project 6: Causal Inference Checks](#project-6-causal-inference-checks)
+  - [Project 7: Supervised Learning Basics — Decision Tree & MNIST Classification](#project-7-supervised-learning-basics--decision-tree--mnist-classification)
+  - [Project 8: Basket Item Recommendation System](#project-8-basket-item-recommendation-system)
+  - [Project 9: MLOps — AWS-based App Deployment (Practice)](#project-9-mlops--aws-based-app-deployment-practice)
+  - [Project 10: LDA, LR, Survival Analysis & Poisson Regression on Telecom Churn](#project-10-lda-lr-survival-analysis--poisson-regression-on-telecom-churn)
+  - [Project 11: Deep Learning Basics — Practical Use Cases](#project-11-deep-learning-basics--practical-use-cases)
+  - [Project 12: ML Supervised Learning Classifiers](#project-12-ml-supervised-learning-classifiers)
 
- Key learnings from this project where
- - Application of Optimization & Simulation Techniques – Using probability distributions, expected value, and variance to evaluate uncertain salary outcomes and compare different career options.
- - Decision-Making under Uncertainty – Understanding how risk (measured by standard deviation) affects real-world business choices beyond just average returns.
- - Scenario & Sensitivity Analysis – Evaluating different strategic options (consulting job, independent ownership, partnership) and testing how assumptions impact outcomes.
- - Integration of Quantitative & Qualitative Insights – Combining numerical results with managerial judgment to arrive at a well-supported recommendation.
+## Project Index
 
-### Project 3: Unsupervised Learning : Customer Behavioural Segmentation 
- File Name : 
- - Mall_of_america.ipynb
+- [Project 01: Statistical Analysis — Hypothesis Testing](./Project%2001%20:%20Statictical%20Analysis%20:%20Basics%20of%20Hypothesis%20Testing%20and%20undterstanding%20the%20p-value/)
+- [Project 02: Optimization & Simulation — Gentle Lentil](./Project%2002:%20Optmisation%20and%20Simulation%20:%20Gentel%20Lentil%20Case%20Study/)
+- [Project 03: Unsupervised Learning — Customer Segmentation](./Project%2003:%20Unsupervised%20Learning%20:%20Customer%20Behavioural%20Segmentation/)
 
- Key learnings from this project where
- - K-means clustering on normalized dwell-time features to segment mall visitors by floor-level engagement.
- - Use of Elbow method and Silhouette score to select the number of clusters and interpret cluster profiles.
- - Behavioral cuts such as filtering employees/short visits, comparing Apple vs non-Apple users, and identifying high-traffic sections.
+## Projects
 
-### Project 4: Unsupervised Learning : Company Segmentation on the bases of Performance
- File Name : 
- - Sectoral_segment_part_1 
- - Sectoral_segment_part_2
+### Project 1: Statistical Analysis — Basics of Hypothesis Testing & Understanding the p-value
+
+**Files**
+
+- `Statistical_analysis_Hypothesis Testing_basics.R`
+
+**Overview**
+
+Given sample data, the task was to perform EDA and hypothesis testing, then examine statistical significance via the p-value and test statistics.
+
+**Key learnings**
+
+- How to set up a Null Hypothesis and Alternate Hypothesis
+- Perform hypothesis testing and examine statistical significance via the p-value and test statistics
+
+### Project 2: Optimization & Simulation — Gentle Lentil Case Study
+
+**Files**
+
+- `Gentel_Lentil_Case_Study_Optimisation_and_Simulation.xlsx`
+
+**Overview**
+
+Analyze "The Gentle Lentil" case to compute expected monthly salary, its standard deviation, and the impact of a partnership—then compare outcomes against a consulting offer and running the restaurant solo.
+
+**Key learnings**
+
+- Application of optimization & simulation techniques (probability distributions, expected value, variance)
+- Decision-making under uncertainty (risk measured by standard deviation)
+- Scenario & sensitivity analysis across strategic options
+- Integration of quantitative results with managerial judgment
+
+### Project 3: Unsupervised Learning — Customer Behavioral Segmentation
+
+**Files**
+
+- `Mall_of_america.ipynb`
+
+**Key learnings**
+
+- K-means clustering on normalized dwell-time features to segment mall visitors by floor-level engagement
+- Use of the Elbow method and Silhouette score to select the number of clusters and interpret cluster profiles
+- Behavioral cuts such as filtering employees/short visits, comparing Apple vs non-Apple users, and identifying high-traffic sections
+
+### Project 4: Unsupervised Learning — Company Segmentation based on Performance
+
+**Files**
+
+- `Sectoral_segment_part_1`
+- `Sectoral_segment_part_2`
 
 ### Project 5: Big Data Management Basics
- File Name : 
- - Big_data_management_basics.ipynb
 
- Key learnings from this project where
- - the basics of Big Data Management PySpark and basiuc RDD operations and transformations
+**Files**
 
-### Project 6: Causal Inference checks
- File Name : 
- - Causal_inference_project.Rmd 
- - Causal_inference_project.html
+- `Big_data_management_basics.ipynb`
 
- This report presents the analysis of wage data, focusing on the relationship between wages, IQ, and education. Our finding were that regression results suggest that both IQ and education have statistically significant effects on wages. The omitted variable bias check confirms the theoretical relationship between the simple and multiple regression coefficients.
+**Key learnings**
 
-### Project 7: Supervised Learning Basics : Decision Tree and MNIST Classification
- File Name : 
- - decision_tree.ipynb 
- - tmnist.ipynb
+- Basics of big data management with PySpark and basic RDD operations and transformations
 
- Key learnings from this project where
- - Application of Decision Tree for classification and regression tasks
- - Application of Parzen Window for classification of Mnist Data
- - Application of KNN for classification of Mnist Data
- - Application of Perceptron for classification of Mnist Data
+### Project 6: Causal Inference Checks
+
+**Files**
+
+- `Causal_inference_project.Rmd`
+- `Causal_inference_project.html`
+
+**Overview**
+
+Analysis of wage data focusing on the relationship between wages, IQ, and education. Regression results suggest both IQ and education have statistically significant effects on wages. An omitted variable bias check confirms the theoretical relationship between simple and multiple regression coefficients.
+
+### Project 7: Supervised Learning Basics — Decision Tree & MNIST Classification
+
+**Files**
+
+- `decision_tree.ipynb`
+- `tmnist.ipynb`
+
+**Key learnings**
+
+- Application of Decision Trees for classification and regression tasks
+- Application of Parzen Window for classification of MNIST data
+- Application of KNN for classification of MNIST data
+- Application of Perceptron for classification of MNIST data
 
 ### Project 8: Basket Item Recommendation System
-File Name : 
- - Rec_sys.ipynb
 
- This scriot recommend the items to the customer based on the basket items (Did you forget to buy?) and there past purchase behavior using association rule and collaborative filtering.
- This was part of a Kaggle compition. Link - https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
+**Files**
 
-### Project 9: MLOps : AWS based App deployment - Practice
-File Name :
- - api.py
- - bank_training.py
- - streamlite_bank.py
- - Dockerfile
- - docker-compose.yaml
- - requirements.txt
- - README.md
+- `Rec_sys.ipynb`
 
-Key learing was how setup AWS registery and deploy the streamlit app using docker and docker compose ina EC2 Instance running in AWS. This was Basic deployment coveing the steps with guidance from out instructor on the steps and code. 
+**Overview**
 
-### Project 10: LDA, LR, Survival Analysis and PoisReg on the Telecomm Churn Data
-File Name : telecomm_churn.ipynb
+Recommend items to a customer based on basket items ("Did you forget to buy?") and past purchase behavior using association rules and collaborative filtering.
 
-Key learnings from this project where
- - Application of LDA for classification od the Churn Telecomm customer
- - Application of LR for classification of the Churn Telecomm customer
- - Application of Survival Analysis for classification of the Churn Telecomm customer
-- Application of Poisson Regression for classification of the Churn Telecomm customer
+This was part of a Kaggle competition:
+https://www.kaggle.com/competitions/did-you-forget-b-25/leaderboard (Group 11)
 
-### Project 11: Deep Learning Basics : Practical Use Cases
- File Name :
- - Understanding Neural Network Forward Propagation and Backpropagation.ipynb
- - Predicting Customer Churn using Neural Networks.ipynb
- - Spam Classification using Recurrent Neural Networks.ipynb
- - Image Classification using Transfer Learning.ipynb
+### Project 9: MLOps — AWS-based App Deployment (Practice)
 
- A set of hands-on deep learning notebooks covering fundamentals (forward/backprop) and common applied patterns (classification with dense networks, RNNs, and transfer learning).
+**Files**
 
- Key learnings from this project where: 
- - Built intuition for forward propagation, loss gradients, and backprop parameter updates
- - Trained neural networks for churn prediction and spam detection
- - Applied sequence modeling with RNNs for text
- - Used transfer learning with pretrained CNNs (fine-tuning + augmentation) for image classification
- - Learned to diagnose overfitting via validation performance.
+- `api.py`
+- `bank_training.py`
+- `streamlite_bank.py`
+- `Dockerfile`
+- `docker-compose.yaml`
+- `requirements.txt`
+- `README.md`
+
+**Key learnings**
+
+How to set up an AWS registry and deploy a Streamlit app using Docker and Docker Compose on an EC2 instance (basic guided deployment).
+
+### Project 10: LDA, LR, Survival Analysis & Poisson Regression on Telecom Churn
+
+**Files**
+
+- `telecomm_churn.ipynb`
+
+**Key learnings**
+
+- Application of LDA for classification of telecom churn customers
+- Application of logistic regression for classification of telecom churn customers
+- Application of survival analysis for classification of telecom churn customers
+- Application of Poisson regression for classification of telecom churn customers
+
+### Project 11: Deep Learning Basics — Practical Use Cases
+
+**Files**
+
+- `Understanding Neural Network Forward Propagation and Backpropagation.ipynb`
+- `Predicting Customer Churn using Neural Networks.ipynb`
+- `Spam Classification using Recurrent Neural Networks.ipynb`
+- `Image Classification using Transfer Learning.ipynb`
+
+**Overview**
+
+A set of hands-on deep learning notebooks covering fundamentals (forward/backprop) and common applied patterns (classification with dense networks, RNNs, and transfer learning).
+
+**Key learnings**
+
+- Built intuition for forward propagation, loss gradients, and backprop parameter updates
+- Trained neural networks for churn prediction and spam detection
+- Applied sequence modeling with RNNs for text
+- Used transfer learning with pretrained CNNs (fine-tuning + augmentation) for image classification
+- Learned to diagnose overfitting via validation performance
 
 ### Project 12: ML Supervised Learning Classifiers
- File Name : 
- - Different Types of Classifier.ipynb
- 
- Supervised learning assignment benchmarking multiple classifiers on a character image dataset (tMNIST-style). The notebook covers:
- - MLP Neural Network (`MLPClassifier`) with multiple hidden-layer architectures
- - Support Vector Machines (`SVC`) with linear, polynomial, and RBF kernels
- - Random Forest (`RandomForestClassifier`) with depth and number-of-trees sweeps
- - Pair-wise linear SVM using Fisher-score-based top feature selection
- 
- Preprocessing + evaluation includes removing all-zero columns, label encoding, normalization to [0,1], a stratified 70/30 train-test split, and accuracy-based comparison.
 
- Key learnings from this project where: 
- - Ran a structured classifier benchmark by cleaning features (zero-variance removal), encoding labels, scaling inputs, and using stratified splits for fair evaluation.
- - Compared MLP, SVM (linear/polynomial/RBF), and Random Forest while tuning model complexity (parameters, support vectors, depth/trees).
- - Implemented Fisher-score feature selection for pairwise SVMs to improve separability.
+**Files**
+
+- `Different Types of Classifier.ipynb`
+
+**Overview**
+
+Supervised learning assignment benchmarking multiple classifiers on a character image dataset (tMNIST-style). The notebook covers:
+
+- MLP Neural Network (`MLPClassifier`) with multiple hidden-layer architectures
+- Support Vector Machines (`SVC`) with linear, polynomial, and RBF kernels
+- Random Forest (`RandomForestClassifier`) with depth and number-of-trees sweeps
+- Pair-wise linear SVM using Fisher-score-based top feature selection
+
+Preprocessing and evaluation includes removing all-zero columns, label encoding, normalization to [0, 1], a stratified 70/30 train-test split, and accuracy-based comparison.
+
+**Key learnings**
+
+- Structured classifier benchmarking with consistent preprocessing and stratified splits
+- Comparison of MLP, SVM (linear/polynomial/RBF), and Random Forest while tuning model complexity
+- Fisher-score feature selection for pairwise SVMs to improve separability
+ 
