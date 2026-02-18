@@ -100,7 +100,7 @@ Key learnings from this project where
 
  A set of hands-on deep learning notebooks covering fundamentals (forward/backprop) and common applied patterns (classification with dense networks, RNNs, and transfer learning).
 
-### Project 12: Supervised Learning : Assignment (Term 3)
+### Project 12: ML Supervised Learning Classifiers
  File Name : 
  - Different Types of Classifier.ipynb
  
