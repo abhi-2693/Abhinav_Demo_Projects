@@ -7,22 +7,22 @@ It is intended to showcase practical skills and applied learnings across statist
 
 ## Table of Contents
 
-- [Project 1: Statistical Analysis — Basics of Hypothesis Testing & Understanding the p-value](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/Statistical_analysis_Hypothesis%20Testing_basics.R)
-- [Project 2: Optimization & Simulation — Gentle Lentil Case Study](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/Gentle_Lentil_Case_Study)
-- [Project 3: Unsupervised Learning — Customer Behavioral Segmentation](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/Customer_Behavioral_segmentation)
-- [Project 4: Unsupervised Learning — Company Segmentation based on Performance](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/Sectoral_segment_part_1.ipynb)
-- [Project 5: Big Data Management Basics](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/Big_data_management_basics.ipynb)
-- [Project 6: Causal Inference Checks](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/Causal_inference_project.Rmd)
-- [Project 7: Supervised Learning Basics — Decision Tree & MNIST Classification](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/decision_tree.ipynb)
-- [Project 8: Basket Item Recommendation System](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/Rec_sys.ipynb)
-- [Project 9: MLOps — AWS-based App Deployment (Practice)](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/energy-demand-forecasting_full_project)
-- [Project 10: LDA, LR, Survival Analysis & Poisson Regression on Telecom Churn](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master/telecomm_churn.ipynb)
-- [Project 11: Deep Learning Basics — Practical Use Cases](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master)
-- [Project 12: ML Supervised Learning Classifiers](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master)
-- [Project 13: Forecasting — Stock Price Time Series (AAPL)](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master)
-- [Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master)
-- [Project 15: Marketing Analytics — Product Optimization, Segmentation & Ads](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master)
-- [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](https://github.com/abhinavpaul/Abhinav_demo_projects/tree/master)
+- [Project 1: Statistical Analysis — Basics of Hypothesis Testing & Understanding the p-value](./Project%2001:%20Statictical%20Analysis%20:%20Basics%20of%20Hypothesis%20Testing%20and%20undterstanding%20the%20p-value/)
+- [Project 2: Optimization & Simulation — Gentle Lentil Case Study](./Project%2002:%20Optmisation%20and%20Simulation%20:%20Gentel%20Lentil%20Case%20Study/)
+- [Project 3: Unsupervised Learning — Customer Behavioral Segmentation](./Project%2003:%20Unsupervised%20Learning%20:%20Customer%20Behavioural%20Segmentation/)
+- [Project 4: Unsupervised Learning — Company Segmentation based on Performance](./Project%2004:%20Unsupervised%20Learning%20:%20Company%20Segmentation%20on%20the%20bases%20of%20Performance/)
+- [Project 5: Big Data Management Basics](./Project%2005:%20Big%20Data%20Management%20Basics/)
+- [Project 6: Causal Inference Checks](./Project%2006:%20Causal%20Inference%20checks/)
+- [Project 7: Supervised Learning Basics — Decision Tree & MNIST Classification](./Project%2007:%20Supervised%20Learning%20Basics%20/)
+- [Project 8: Basket Item Recommendation System](./Project%2008:%20Basket%20Item%20Reccomendation/)
+- [Project 9: MLOps — AWS-based App Deployment (Practice)](./Project%2009:%20MLOps%20:%20AWS%20based%20App%20deployment%20-%20Practice/)
+- [Project 10: LDA, LR, Survival Analysis & Poisson Regression on Telecom Churn](./Project%2010:%20LDA,%20LR,%20Survival%20Analysis%20and%20PoisReg/)
+- [Project 11: Deep Learning Basics — Practical Use Cases](./Project%2011:%20Deep%20Learning%20Basic%20Use%20cases/)
+- [Project 12: ML Supervised Learning Classifiers](./Project%2012:%20Different%20Types%20of%20Classifier/)
+- [Project 13: Forecasting — Stock Price Time Series (AAPL)](./Project%2013:%20Stock%20Forecasting%20Analysis/)
+- [Project 14: LLMs / RAG — Knowledge Graph–Enhanced RAG with Wikipedia + Neo4j](./Project%2014:%20Knowledge%20Graph%E2%80%93enhanced%20RAG%20system%20using%20Wikipedia%20data/)
+- [Project 15: Marketing Analytics — Product Optimization, Segmentation & Ads](./Project%2015:%20Marketing%20and%20Customer%20Analytics/)
+- [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](./Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting/)
 
 ---
 
