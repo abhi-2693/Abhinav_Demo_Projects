@@ -1,6 +1,6 @@
 ---
 title: "**Assignment SA2 - Term2 (ISB - AMPBA)**"
-author: "**Submitted by** : Abhinav Paul (PGID : 1242005)"
+author: "**Submitted by** : Abhinav Paul"
 date: "**Date** : 2025-07-18"
 output: 
   html_document:

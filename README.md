@@ -257,4 +257,27 @@ Preprocessing and evaluation includes removing all-zero columns, label encoding,
 - Structured classifier benchmarking with consistent preprocessing and stratified splits
 - Comparison of MLP, SVM (linear/polynomial/RBF), and Random Forest while tuning model complexity
 - Fisher-score feature selection for pairwise SVMs to improve separability
+---
+
+### Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)
+
+**Files**
+
+- `energy-demand-forecasting_full_project/README.md`
+- `energy-demand-forecasting_full_project/app.py`
+- `energy-demand-forecasting_full_project/Dockerfile`
+- `energy-demand-forecasting_full_project/requirements.txt`
+- `energy-demand-forecasting_full_project/src/train.py`
+- `energy-demand-forecasting_full_project/src/predict.py`
+
+**Overview**
+
+Full mini-project to forecast Florida energy demand with a reproducible training pipeline and a Streamlit UI, including Docker packaging for deployment.
+
+**Key learnings**
+
+- Structuring an end-to-end forecasting project with `src/` modules (data, features, training, prediction)
+- Building an interactive Streamlit interface for forecasting outputs
+- Packaging and running the application locally and via Docker
+
  
