@@ -68,3 +68,24 @@ Key learnings from this project where
 - Application of LR for classification of the Churn Telecomm customer
 - Application of Survival Analysis for classification of the Churn Telecomm customer
 - Application of Poisson Regression for classification of the Churn Telecomm customer
+
+### Project 11: Deep Learning Basics : Practical Use Cases
+ File Name :
+ - Understanding Neural Network Forward Propagation and Backpropagation.ipynb
+ - Predicting Customer Churn using Neural Networks.ipynb
+ - Spam Classification using Recurrent Neural Networks.ipynb
+ - Image Classification using Transfer Learning.ipynb
+
+ A set of hands-on deep learning notebooks covering fundamentals (forward/backprop) and common applied patterns (classification with dense networks, RNNs, and transfer learning).
+
+### Project 12: Supervised Learning : Assignment (Term 3)
+ File Name : Different Types of Classifier.ipynb
+ 
+ Supervised learning assignment benchmarking multiple classifiers on a character image dataset (tMNIST-style). The notebook covers:
+ - MLP Neural Network (`MLPClassifier`) with multiple hidden-layer architectures
+ - Support Vector Machines (`SVC`) with linear, polynomial, and RBF kernels
+ - Random Forest (`RandomForestClassifier`) with depth and number-of-trees sweeps
+ - Pair-wise linear SVM using Fisher-score-based top feature selection
+ 
+ Preprocessing + evaluation includes removing all-zero columns, label encoding, normalization to [0,1], a stratified 70/30 train-test split, and accuracy-based comparison.
+
