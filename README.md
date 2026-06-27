@@ -26,7 +26,7 @@ It is intended to showcase practical skills and applied learnings across statist
 - [Project 17: NLP — Transformers, RAG, Web Scraping & Text-to-SQL](./Project%2017:%20NLP%20—%20Transformers%2C%20RAG%2C%20Web%20Scraping%20%26%20Text-to-SQL/)
 - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](./Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting/)
 - [Project 19: Deep Learning — Classification & Segmentation (LGAI)](./Project%2019:%20Deep%20Learning%20—%20Classification%20&%20Segmentation/)
-- [Project 20: Experiment X - Production Grade Experimentation platform ( Ecommerce ) [WIP]](./Project%2020:%20Experiment%20X%20-%20Production%20Grade%20Experimentation%20platform%20(%20Ecommerce%20))
+- [Project 20: Experiment X - Production Grade Experimentation platform ( Ecommerce ) [Work In Progress]](./Project%2020:%20Experiment%20X%20-%20Production%20Grade%20Experimentation%20platform%20(%20Ecommerce%20))
 
 ---
 
@@ -405,14 +405,19 @@ Deep learning assignment notebooks covering image classification (transfer learn
 
 - Training and evaluating CNN-based image classifiers using PyTorch + transfer learning
 - Building robust train/test splits and evaluation workflows for vision datasets
- 
+
+---
+
 ### Project 20: ExperimentX - Production-Grade Experimentation platform (Ecommerce) [Work In Progress]
 
 **Files**
-To be Updated
+
+- To be Updated
 
 **Overview**
-To be updated
+
+- To be updated
 
 **Key learnings**
-To be updated
+
+- To be updated
