@@ -1,0 +1,254 @@
+[
+  {
+    "ym": "2023-01",
+    "tickets": 591,
+    "compliance_pct": 58.379999999999995,
+    "avg_breach_prob": 0.500142978003384,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-02",
+    "tickets": 535,
+    "compliance_pct": 60.0,
+    "avg_breach_prob": 0.5000523364485981,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-03",
+    "tickets": 586,
+    "compliance_pct": 59.9,
+    "avg_breach_prob": 0.49991535836177475,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-04",
+    "tickets": 529,
+    "compliance_pct": 60.49,
+    "avg_breach_prob": 0.5002291115311909,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-05",
+    "tickets": 585,
+    "compliance_pct": 59.150000000000006,
+    "avg_breach_prob": 0.5000309401709402,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-06",
+    "tickets": 583,
+    "compliance_pct": 63.29,
+    "avg_breach_prob": 0.5000756432246999,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-07",
+    "tickets": 603,
+    "compliance_pct": 63.019999999999996,
+    "avg_breach_prob": 0.5001935323383084,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-08",
+    "tickets": 616,
+    "compliance_pct": 59.25,
+    "avg_breach_prob": 0.49998603896103894,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-09",
+    "tickets": 538,
+    "compliance_pct": 60.41,
+    "avg_breach_prob": 0.5000016728624536,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-10",
+    "tickets": 645,
+    "compliance_pct": 58.29,
+    "avg_breach_prob": 0.4999640310077519,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-11",
+    "tickets": 546,
+    "compliance_pct": 60.260000000000005,
+    "avg_breach_prob": 0.4999318681318682,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2023-12",
+    "tickets": 594,
+    "compliance_pct": 58.589999999999996,
+    "avg_breach_prob": 0.5000680134680134,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-01",
+    "tickets": 678,
+    "compliance_pct": 60.18,
+    "avg_breach_prob": 0.4998589970501475,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-02",
+    "tickets": 637,
+    "compliance_pct": 55.88999999999999,
+    "avg_breach_prob": 0.499889010989011,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-03",
+    "tickets": 681,
+    "compliance_pct": 62.849999999999994,
+    "avg_breach_prob": 0.4999706314243759,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-04",
+    "tickets": 658,
+    "compliance_pct": 60.18,
+    "avg_breach_prob": 0.4999521276595745,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-05",
+    "tickets": 686,
+    "compliance_pct": 63.7,
+    "avg_breach_prob": 0.4998798833819242,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-06",
+    "tickets": 619,
+    "compliance_pct": 58.32000000000001,
+    "avg_breach_prob": 0.49989176090468496,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-07",
+    "tickets": 652,
+    "compliance_pct": 59.81999999999999,
+    "avg_breach_prob": 0.49991641104294476,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-08",
+    "tickets": 702,
+    "compliance_pct": 62.25000000000001,
+    "avg_breach_prob": 0.49989658119658115,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-09",
+    "tickets": 692,
+    "compliance_pct": 62.43,
+    "avg_breach_prob": 0.49991329479768787,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-10",
+    "tickets": 701,
+    "compliance_pct": 63.91,
+    "avg_breach_prob": 0.49988958630527813,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-11",
+    "tickets": 657,
+    "compliance_pct": 62.4,
+    "avg_breach_prob": 0.4998779299847793,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2024-12",
+    "tickets": 669,
+    "compliance_pct": 60.84,
+    "avg_breach_prob": 0.4999615844544095,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-01",
+    "tickets": 621,
+    "compliance_pct": 62.32,
+    "avg_breach_prob": 0.4999281803542673,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-02",
+    "tickets": 574,
+    "compliance_pct": 61.150000000000006,
+    "avg_breach_prob": 0.49997212543554004,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-03",
+    "tickets": 632,
+    "compliance_pct": 61.870000000000005,
+    "avg_breach_prob": 0.49993006329113926,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-04",
+    "tickets": 652,
+    "compliance_pct": 60.58,
+    "avg_breach_prob": 0.49992315950920246,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-05",
+    "tickets": 624,
+    "compliance_pct": 61.22,
+    "avg_breach_prob": 0.4999083333333333,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-06",
+    "tickets": 613,
+    "compliance_pct": 62.150000000000006,
+    "avg_breach_prob": 0.4999127243066884,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-07",
+    "tickets": 631,
+    "compliance_pct": 56.74,
+    "avg_breach_prob": 0.4999226624405705,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-08",
+    "tickets": 656,
+    "compliance_pct": 60.519999999999996,
+    "avg_breach_prob": 0.4999236280487805,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-09",
+    "tickets": 589,
+    "compliance_pct": 58.74,
+    "avg_breach_prob": 0.49991748726655344,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-10",
+    "tickets": 657,
+    "compliance_pct": 56.47,
+    "avg_breach_prob": 0.49995327245053267,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-11",
+    "tickets": 601,
+    "compliance_pct": 55.57,
+    "avg_breach_prob": 0.4999357737104825,
+    "sla_target": 0.99
+  },
+  {
+    "ym": "2025-12",
+    "tickets": 621,
+    "compliance_pct": 62.0,
+    "avg_breach_prob": 0.49992109500805154,
+    "sla_target": 0.99
+  }
+]

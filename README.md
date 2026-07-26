@@ -408,15 +408,55 @@ Deep learning assignment notebooks covering image classification (transfer learn
 
 ---
 
-### Project 20: ExperimentX - Production-Grade Experimentation platform (Ecommerce) [Work In Progress]
+### Project 20: Capstone Project - Ops Intel an  AI-driven IT operations management platform
 
 **Files**
 
-- To be Updated
+- Dashboard Files/ops-intel-app/ - React-based frontend dashboard
+- Dashboard Files/opsintel-api/ - FastAPI backend server (main.py)
+- Reports/Innodatatics Capstone - AI-Driven_Intelligent_IT_Operations_Platform_Final_Review.pptx - Final presentation
+- Reports/Project Report - Innodatatics Capstone - AI-Driven Intelligent IT Operations Platform.pdf - Detailed project report
 
 **Overview**
 
-- To be updated
+OpsIntel is a comprehensive AI-driven IT operations management platform that integrates multiple machine learning models to optimize IT service delivery. The platform features:
+
+- **Ticket Analytics**: NLP-based ticket classification, priority prediction, and automated engineer assignment
+- **SLA Prediction**: ML models predicting SLA breach probability with risk band classification (High/Watch/OnTrack)
+- **Asset Survival Analysis**: Predictive maintenance model estimating asset failure risk and remaining useful life
+- **Inventory Optimization**: Automated procurement planning with cost optimization algorithms
+- **Executive Dashboard**: Real-time KPIs including cost savings, downtime reduction, SLA compliance, and strategic recommendations
+
+**Key learnings**
+
+- Building end-to-end ML pipelines for IT operations (data preprocessing → model training → deployment)
+- Developing FastAPI REST APIs with CORS middleware for frontend integration
+- Implementing real-time dashboard metrics computed dynamically from model outputs
+- Creating composite KPIs and business value metrics (cost savings, ROI, efficiency scores)
+- Designing multi-model AI systems with integrated recommendations across tickets, assets, and inventory
+
+---
+
+### Project 21: ExperimentX - Production-Grade Experimentation platform (Ecommerce) [Work In Progress]
+
+**Files**
+
+- Phase 0 : Research Proposal & Project Charter/Research_Proposal.pdf - Research proposal document
+- README.md - Project roadmap and phase tracking
+
+**Overview**
+
+ExperimentX is a production-grade A/B testing and experimentation platform designed for ecommerce applications. The project follows a structured 8-phase development approach:
+
+- **Phase 0**: Research Proposal & Project Charter (Work in Progress)
+- **Phase 1**: Product Requirements Document (PRD)
+- **Phase 2**: System Architecture & Technical Design
+- **Phase 3**: Data Model & Event Taxonomy
+- **Phase 4**: Backend Platform (Assignment, Registry, Metrics)
+- **Phase 5**: Statistical Engine
+- **Phase 6**: Dashboard & Monitoring
+- **Phase 7**: Testing, Deployment, Documentation
+- **Phase 8**: Post-Mortem & Future Enhancements
 
 **Key learnings**
 

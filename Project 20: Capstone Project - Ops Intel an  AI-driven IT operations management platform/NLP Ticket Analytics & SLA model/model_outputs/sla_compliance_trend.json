@@ -1,0 +1,62 @@
+[
+  {
+    "month": "Jan",
+    "compliance": 60.34,
+    "target": 99.0
+  },
+  {
+    "month": "Feb",
+    "compliance": 58.9,
+    "target": 99.0
+  },
+  {
+    "month": "Mar",
+    "compliance": 61.63,
+    "target": 99.0
+  },
+  {
+    "month": "Apr",
+    "compliance": 60.43,
+    "target": 99.0
+  },
+  {
+    "month": "May",
+    "compliance": 61.54,
+    "target": 99.0
+  },
+  {
+    "month": "Jun",
+    "compliance": 61.23,
+    "target": 99.0
+  },
+  {
+    "month": "Jul",
+    "compliance": 59.85,
+    "target": 99.0
+  },
+  {
+    "month": "Aug",
+    "compliance": 60.74,
+    "target": 99.0
+  },
+  {
+    "month": "Sep",
+    "compliance": 60.7,
+    "target": 99.0
+  },
+  {
+    "month": "Oct",
+    "compliance": 59.7,
+    "target": 99.0
+  },
+  {
+    "month": "Nov",
+    "compliance": 59.48,
+    "target": 99.0
+  },
+  {
+    "month": "Dec",
+    "compliance": 60.51,
+    "target": 99.0
+  }
+]

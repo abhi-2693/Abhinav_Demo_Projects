@@ -1,0 +1,47 @@
+[
+  {
+    "approval_id": "APR_20260507003401_AID_002",
+    "asset_id": "AID_002",
+    "model_number": "M002",
+    "quantity_approved": 3,
+    "approved_at": "2026-05-07 00:34:01",
+    "approved_by": "Admin User",
+    "status": "APPROVED"
+  },
+  {
+    "approval_id": "APR_20260507003411_AID_003",
+    "asset_id": "AID_003",
+    "model_number": "M003",
+    "quantity_approved": 2,
+    "approved_at": "2026-05-07 00:34:11",
+    "approved_by": "Admin User",
+    "status": "APPROVED"
+  },
+  {
+    "approval_id": "APR_20260509092723_AID_002",
+    "asset_id": "AID_002",
+    "model_number": "M002",
+    "quantity_approved": 3,
+    "approved_at": "2026-05-09 09:27:23",
+    "approved_by": "Admin User",
+    "status": "APPROVED"
+  },
+  {
+    "approval_id": "APR_20260509180633_AID_025",
+    "asset_id": "AID_025",
+    "model_number": "M001",
+    "quantity_approved": 0,
+    "approved_at": "2026-05-09 18:06:33",
+    "approved_by": "Admin User",
+    "status": "APPROVED"
+  },
+  {
+    "approval_id": "APR_20260509181007_AID_002",
+    "asset_id": "AID_002",
+    "model_number": "M002",
+    "quantity_approved": 3,
+    "approved_at": "2026-05-09 18:10:07",
+    "approved_by": "Admin User",
+    "status": "APPROVED"
+  }
+]

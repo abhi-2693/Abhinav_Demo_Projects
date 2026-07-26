@@ -1,0 +1,9 @@
+target,model,type,accuracy,f1_weighted,roc_auc,rmse,r2
+ticket_category,logistic_regression,classification,0.8423447537473233,0.8420514843452038,0.9505233677803188,,
+ticket_category,random_forest,classification,0.8403372591006424,0.8401654689433924,0.9484981028365747,,
+issue_type,logistic_regression,classification,0.7183946488294315,0.728040980977653,,,
+issue_type,xgboost,classification,0.7290969899665551,0.7279079677900855,,,
+ticket_priority,logistic_regression,classification,0.478918484807924,0.45902980593270565,,,
+ticket_priority,random_forest,classification,0.5406237451479052,0.5093161731564531,,,
+resolution_time_minutes,linear_regression,regression,,,,525.7770357394495,0.8290412792580795
+resolution_time_minutes,random_forest_regressor,regression,,,,513.36446048679,0.8370180041617228

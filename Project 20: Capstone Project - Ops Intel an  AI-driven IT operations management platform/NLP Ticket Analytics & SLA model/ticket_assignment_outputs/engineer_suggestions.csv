@@ -1,0 +1,17 @@
+assignment_id,ticket_id,scenario_id,ticket_category,ticket_priority,issue_type,current_engineer,suggested_engineer_1,suggested_engineer_2,suggested_engineer_3,suggestion_score_1,suggested_specialization,score_breakdown,sla_breach_prob,sla_breach_tier,manager_review,assignment_type,actor,processed_at
+13,T00041002,S02,Network,P2,Slow,E007,E012,E005,E009,0.8468,Network,spec=0.307|exp=0.084|sla=0.133|load=0.241|issue=0.082,0.0,Low,False,MANUAL,manager,2026-05-20 04:06:42
+15,T00041003,S03,Network,P1,Crash,E015,E012,E005,E009,0.8486,Network,spec=0.307|exp=0.084|sla=0.133|load=0.241|issue=0.084,0.0,Low,False,ESCALATION,manager,2026-05-20 04:06:42
+18,T00041005,S05,Network,P2,Access,E001,E005,E012,E009,0.8471,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.081,0.0,Low,False,MANUAL,manager,2026-05-20 04:06:42
+20,T00041006,S06,Network,P3,Slow,E017,E012,E005,E009,0.8468,Network,spec=0.307|exp=0.084|sla=0.133|load=0.241|issue=0.082,0.0,Low,False,MANUAL,manager,2026-05-20 04:06:42
+21,T00041007,S07,Network,P2,Slow,E016,E012,E005,E009,0.8468,Network,spec=0.307|exp=0.084|sla=0.133|load=0.241|issue=0.082,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+22,T00041008,S07,Network,P3,Access,E016,E005,E012,E009,0.8471,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.081,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+23,T00041009,S07,Network,P3,Failure,E016,E005,E012,E006,0.8565,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.090,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+25,T00041011,S09,Network,P4,Access,E010,E005,E012,E009,0.8471,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.081,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+26,T00041012,S10,Network,P2,Failure,E018,E005,E012,E006,0.8565,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.090,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+29,T00041014,S12,Hardware,P3,Crash,E018,E004,E013,E019,0.8524,Server,spec=0.307|exp=0.084|sla=0.136|load=0.241|issue=0.085,0.0,Low,False,MANUAL,manager,2026-05-20 04:06:42
+31,T00041015,S13,Network,P2,Slow,E002,E012,E005,E009,0.8468,Network,spec=0.307|exp=0.084|sla=0.133|load=0.241|issue=0.082,0.0,Low,False,MANUAL,manager,2026-05-20 04:06:42
+32,T00041016,S14,Network,P3,Access,E020,E005,E012,E009,0.8471,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.081,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+34,T00041018,S16,Hardware,P1,Failure,E008,E004,E019,E013,0.8519,Server,spec=0.307|exp=0.084|sla=0.136|load=0.241|issue=0.085,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+35,T00041018,S16,Network,P1,Failure,E015,E005,E012,E006,0.8565,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.090,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+41,T00041022,S19,Network,P2,Slow,E001,E012,E005,E009,0.8468,Network,spec=0.307|exp=0.084|sla=0.133|load=0.241|issue=0.082,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42
+43,T00041024,S20,Network,P1,Failure,E008,E005,E012,E006,0.8565,Network,spec=0.307|exp=0.084|sla=0.135|load=0.241|issue=0.090,0.0,Low,False,AUTO,ai_engine_v1,2026-05-20 04:06:42

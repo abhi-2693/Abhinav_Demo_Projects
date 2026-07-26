@@ -1,0 +1,1718 @@
+[
+  {
+    "year_ticket_id": "T00041001",
+    "ticket_created_timestamp": "2026-04-01 08:00:00",
+    "ticket_description": "Direct assignment \u2014 P1 critical network failure",
+    "ticket_status": "Resolved",
+    "actual_category": "Network",
+    "actual_priority": "P1",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E002"
+    },
+    "suggested_engineer": "E002",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0001263",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 563.22,
+          "similarity_score": 0.9878770544048553
+        },
+        {
+          "year_ticket_id": "2023_T0000271",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 2506.88,
+          "similarity_score": 0.6857867871791457
+        },
+        {
+          "year_ticket_id": "2023_T0000871",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 179.18,
+          "similarity_score": 0.6839178838030967
+        }
+      ]
+    },
+    "scenario_id": "S01",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041002",
+    "ticket_created_timestamp": "2026-04-01 08:05:00",
+    "ticket_description": "Auto-assigned but E006 already handling 4 active tickets",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9964,
+    "predicted_resolution_time_minutes": 489.42,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E006"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Server",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Server",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S02",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041002",
+    "ticket_created_timestamp": "2026-04-01 08:30:00",
+    "ticket_description": "Reassigned to E007 \u2014 lower current load (1 active ticket)",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9964,
+    "predicted_resolution_time_minutes": 489.42,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E007"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Server",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Server",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S02",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041003",
+    "ticket_created_timestamp": "2026-04-01 08:10:00",
+    "ticket_description": "Junior engineer (1yr exp) initial assignment",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P1",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.9843,
+    "predicted_resolution_time_minutes": 207.33,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E003"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Replaced PSU.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003386",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 545.3,
+          "similarity_score": 0.9782432205921489
+        },
+        {
+          "year_ticket_id": "2023_T0006898",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 1272.33,
+          "similarity_score": 0.7246157986508568
+        },
+        {
+          "year_ticket_id": "2025_T0006478",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 3672.42,
+          "similarity_score": 0.6576977789661748
+        }
+      ]
+    },
+    "scenario_id": "S03",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041003",
+    "ticket_created_timestamp": "2026-04-01 10:00:00",
+    "ticket_description": "Escalated to senior \u2014 E015 (7yr exp, Network specialist)",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P1",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.9843,
+    "predicted_resolution_time_minutes": 207.33,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E015"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Replaced PSU.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003386",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 545.3,
+          "similarity_score": 0.9782432205921489
+        },
+        {
+          "year_ticket_id": "2023_T0006898",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 1272.33,
+          "similarity_score": 0.7246157986508568
+        },
+        {
+          "year_ticket_id": "2025_T0006478",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 3672.42,
+          "similarity_score": 0.6576977789661748
+        }
+      ]
+    },
+    "scenario_id": "S03",
+    "assignment_type": "ESCALATION"
+  },
+  {
+    "year_ticket_id": "T00041004",
+    "ticket_created_timestamp": "2026-04-01 08:15:00",
+    "ticket_description": "Round-robin: E009 next in Network queue rotation",
+    "ticket_status": "Resolved",
+    "actual_category": "Network",
+    "actual_priority": "P3",
+    "actual_issue_type": "Access",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Access",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E009"
+    },
+    "suggested_engineer": "E009",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0005716",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1178.05,
+          "similarity_score": 0.9805859006762623
+        },
+        {
+          "year_ticket_id": "2023_T0003604",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 539.95,
+          "similarity_score": 0.7655033428954913
+        },
+        {
+          "year_ticket_id": "2023_T0003226",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1220.7,
+          "similarity_score": 0.7487909890427439
+        }
+      ]
+    },
+    "scenario_id": "S04",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041005",
+    "ticket_created_timestamp": "2026-04-01 08:20:00",
+    "ticket_description": "Misrouted: Network ticket auto-assigned to Server engineer E004",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Access",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Access",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9918,
+    "predicted_resolution_time_minutes": 408.52,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E004"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Reset LDAP sync.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0005716",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1178.05,
+          "similarity_score": 0.9805859006762623
+        },
+        {
+          "year_ticket_id": "2023_T0003604",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 539.95,
+          "similarity_score": 0.7655033428954913
+        },
+        {
+          "year_ticket_id": "2023_T0003226",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1220.7,
+          "similarity_score": 0.7487909890427439
+        }
+      ]
+    },
+    "scenario_id": "S05",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041005",
+    "ticket_created_timestamp": "2026-04-01 08:45:00",
+    "ticket_description": "Corrected: reassigned to Network specialist E001",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Access",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Access",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9918,
+    "predicted_resolution_time_minutes": 408.52,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E001"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Reset LDAP sync.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0005716",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1178.05,
+          "similarity_score": 0.9805859006762623
+        },
+        {
+          "year_ticket_id": "2023_T0003604",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 539.95,
+          "similarity_score": 0.7655033428954913
+        },
+        {
+          "year_ticket_id": "2023_T0003226",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1220.7,
+          "similarity_score": 0.7487909890427439
+        }
+      ]
+    },
+    "scenario_id": "S05",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041006",
+    "ticket_created_timestamp": "2026-04-01 08:30:00",
+    "ticket_description": "E012 flagged unavailable \u2014 on leave today",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P3",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.9988,
+    "predicted_resolution_time_minutes": 1455.29,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E012"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S06",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041006",
+    "ticket_created_timestamp": "2026-04-01 09:00:00",
+    "ticket_description": "Manually assigned to E017 after leave check",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P3",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.9988,
+    "predicted_resolution_time_minutes": 1455.29,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E017"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S06",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041007",
+    "ticket_created_timestamp": "2026-04-01 07:00:00",
+    "ticket_description": "Ticket 1 of 3 for E016 \u2014 P2 Network Slow",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9965,
+    "predicted_resolution_time_minutes": 488.94,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E016"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Server",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Server",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S07",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041008",
+    "ticket_created_timestamp": "2026-04-01 07:30:00",
+    "ticket_description": "Ticket 2 of 3 for E016 \u2014 P3 Network Access",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P3",
+    "actual_issue_type": "Access",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Access",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.9968,
+    "predicted_resolution_time_minutes": 1195.95,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E016"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Reset LDAP sync.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0005716",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1178.05,
+          "similarity_score": 0.9805859006762623
+        },
+        {
+          "year_ticket_id": "2023_T0003604",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 539.95,
+          "similarity_score": 0.7655033428954913
+        },
+        {
+          "year_ticket_id": "2023_T0003226",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1220.7,
+          "similarity_score": 0.7487909890427439
+        }
+      ]
+    },
+    "scenario_id": "S07",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041009",
+    "ticket_created_timestamp": "2026-04-01 08:00:00",
+    "ticket_description": "Ticket 3 of 3 for E016 \u2014 P3 Network Failure",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P3",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.986,
+    "predicted_resolution_time_minutes": 1375.01,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E016"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Server",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Replaced faulty NIC and patched firmware.",
+      "recommended_engineer_group": "Server",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0001263",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 563.22,
+          "similarity_score": 0.9878770544048553
+        },
+        {
+          "year_ticket_id": "2023_T0000271",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 2506.88,
+          "similarity_score": 0.6857867871791457
+        },
+        {
+          "year_ticket_id": "2023_T0000871",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 179.18,
+          "similarity_score": 0.6839178838030967
+        }
+      ]
+    },
+    "scenario_id": "S07",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041010",
+    "ticket_created_timestamp": "2026-04-02 06:00:00",
+    "ticket_description": "P1 critical Server Crash \u2014 E008 highest exp (10yr) auto-selected",
+    "ticket_status": "Resolved",
+    "actual_category": "Hardware",
+    "actual_priority": "P1",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E008"
+    },
+    "suggested_engineer": "E008",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003190",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 1235.27,
+          "similarity_score": 0.9830390557717903
+        },
+        {
+          "year_ticket_id": "2024_T0002394",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2264.23,
+          "similarity_score": 0.662226825303019
+        },
+        {
+          "year_ticket_id": "2023_T0006551",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2352.0,
+          "similarity_score": 0.6604078324058106
+        }
+      ]
+    },
+    "scenario_id": "S08",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041011",
+    "ticket_created_timestamp": "2026-04-02 14:00:00",
+    "ticket_description": "P4 low priority \u2014 queued for afternoon slot; E010 assigned",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P4",
+    "actual_issue_type": "Access",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Access",
+    "predicted_priority": "P4",
+    "classification_confidence": 0.9829,
+    "predicted_resolution_time_minutes": 2544.38,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E010"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Replaced faulty NIC and patched firmware.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0005716",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1178.05,
+          "similarity_score": 0.9805859006762623
+        },
+        {
+          "year_ticket_id": "2023_T0003604",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 539.95,
+          "similarity_score": 0.7655033428954913
+        },
+        {
+          "year_ticket_id": "2023_T0003226",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1220.7,
+          "similarity_score": 0.7487909890427439
+        }
+      ]
+    },
+    "scenario_id": "S09",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041012",
+    "ticket_created_timestamp": "2026-04-02 09:00:00",
+    "ticket_description": "Network queue full \u2014 Server eng E018 (6yr exp) covering Network ticket",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9926,
+    "predicted_resolution_time_minutes": 431.76,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E018"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Replaced faulty NIC and patched firmware.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0001263",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 563.22,
+          "similarity_score": 0.9878770544048553
+        },
+        {
+          "year_ticket_id": "2023_T0000271",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 2506.88,
+          "similarity_score": 0.6857867871791457
+        },
+        {
+          "year_ticket_id": "2023_T0000871",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 179.18,
+          "similarity_score": 0.6839178838030967
+        }
+      ]
+    },
+    "scenario_id": "S10",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041013",
+    "ticket_created_timestamp": "2026-04-03 08:00:00",
+    "ticket_description": "SLA breached \u2014 P2 Server ticket; E014 assigned but resolution delayed",
+    "ticket_status": "Resolved",
+    "actual_category": "Hardware",
+    "actual_priority": "P2",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E014"
+    },
+    "suggested_engineer": "E014",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003143",
+          "issue_type": "Failure",
+          "resolution_notes": "Motherboard replaced.",
+          "resolution_time_minutes": 570.02,
+          "similarity_score": 0.9858018318998778
+        },
+        {
+          "year_ticket_id": "2025_T0004667",
+          "issue_type": "Failure",
+          "resolution_notes": "Motherboard replaced.",
+          "resolution_time_minutes": 190.48,
+          "similarity_score": 0.7503303826532917
+        },
+        {
+          "year_ticket_id": "2023_T0005262",
+          "issue_type": "Failure",
+          "resolution_notes": "Motherboard replaced.",
+          "resolution_time_minutes": 2469.48,
+          "similarity_score": 0.699673565981619
+        }
+      ]
+    },
+    "scenario_id": "S11",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041014",
+    "ticket_created_timestamp": "2026-04-03 09:00:00",
+    "ticket_description": "Initial resolution by E013 \u2014 marked resolved",
+    "ticket_status": "Resolved",
+    "actual_category": "Hardware",
+    "actual_priority": "P3",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.9932,
+    "predicted_resolution_time_minutes": 1245.12,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E013"
+    },
+    "suggested_engineer": "E004",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Cleaned cooling fans.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003190",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 1235.27,
+          "similarity_score": 0.9830390557717903
+        },
+        {
+          "year_ticket_id": "2024_T0002394",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2264.23,
+          "similarity_score": 0.662226825303019
+        },
+        {
+          "year_ticket_id": "2023_T0006551",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2352.0,
+          "similarity_score": 0.6604078324058106
+        }
+      ]
+    },
+    "scenario_id": "S12",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041014",
+    "ticket_created_timestamp": "2026-04-04 08:00:00",
+    "ticket_description": "Ticket reopened by client \u2014 reassigned to E018 (senior)",
+    "ticket_status": "Open",
+    "actual_category": "Hardware",
+    "actual_priority": "P3",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.9932,
+    "predicted_resolution_time_minutes": 1245.12,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E018"
+    },
+    "suggested_engineer": "E004",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Cleaned cooling fans.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003190",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 1235.27,
+          "similarity_score": 0.9830390557717903
+        },
+        {
+          "year_ticket_id": "2024_T0002394",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2264.23,
+          "similarity_score": 0.662226825303019
+        },
+        {
+          "year_ticket_id": "2023_T0006551",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2352.0,
+          "similarity_score": 0.6604078324058106
+        }
+      ]
+    },
+    "scenario_id": "S12",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041015",
+    "ticket_created_timestamp": "2026-04-04 08:00:00",
+    "ticket_description": "System auto-assigned E006",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9965,
+    "predicted_resolution_time_minutes": 488.46,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E006"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Server",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Server",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S13",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041015",
+    "ticket_created_timestamp": "2026-04-04 08:15:00",
+    "ticket_description": "Manager override \u2014 preferred E002 (7yr, proven on Slow issues)",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9965,
+    "predicted_resolution_time_minutes": 488.46,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E002"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Server",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Server",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S13",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041016",
+    "ticket_created_timestamp": "2026-04-04 09:00:00",
+    "ticket_description": "Preferred Network engineers busy \u2014 fallback to E020 (1yr exp, only available)",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P3",
+    "actual_issue_type": "Access",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Access",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.9965,
+    "predicted_resolution_time_minutes": 1172.67,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E020"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Reset LDAP sync.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0005716",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1178.05,
+          "similarity_score": 0.9805859006762623
+        },
+        {
+          "year_ticket_id": "2023_T0003604",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 539.95,
+          "similarity_score": 0.7655033428954913
+        },
+        {
+          "year_ticket_id": "2023_T0003226",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1220.7,
+          "similarity_score": 0.7487909890427439
+        }
+      ]
+    },
+    "scenario_id": "S14",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041017",
+    "ticket_created_timestamp": "2026-04-04 10:00:00",
+    "ticket_description": "E005 preferred \u2014 highest historical resolution rate for Network-Failure (92%)",
+    "ticket_status": "Resolved",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E005"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0001263",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 563.22,
+          "similarity_score": 0.9878770544048553
+        },
+        {
+          "year_ticket_id": "2023_T0000271",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 2506.88,
+          "similarity_score": 0.6857867871791457
+        },
+        {
+          "year_ticket_id": "2023_T0000871",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 179.18,
+          "similarity_score": 0.6839178838030967
+        }
+      ]
+    },
+    "scenario_id": "S15",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041018",
+    "ticket_created_timestamp": "2026-04-05 08:00:00",
+    "ticket_description": "Primary: E008 (Server, 10yr) \u2014 complex Server+Network failure",
+    "ticket_status": "Open",
+    "actual_category": "Hardware",
+    "actual_priority": "P1",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.9922,
+    "predicted_resolution_time_minutes": 500.73,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E008"
+    },
+    "suggested_engineer": "E004",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Motherboard replaced.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003143",
+          "issue_type": "Failure",
+          "resolution_notes": "Motherboard replaced.",
+          "resolution_time_minutes": 570.02,
+          "similarity_score": 0.9858018318998778
+        },
+        {
+          "year_ticket_id": "2025_T0004667",
+          "issue_type": "Failure",
+          "resolution_notes": "Motherboard replaced.",
+          "resolution_time_minutes": 190.48,
+          "similarity_score": 0.7503303826532917
+        },
+        {
+          "year_ticket_id": "2023_T0005262",
+          "issue_type": "Failure",
+          "resolution_notes": "Motherboard replaced.",
+          "resolution_time_minutes": 2469.48,
+          "similarity_score": 0.699673565981619
+        }
+      ]
+    },
+    "scenario_id": "S16",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041018",
+    "ticket_created_timestamp": "2026-04-05 08:00:00",
+    "ticket_description": "Secondary: E015 (Network, 7yr) \u2014 supporting E008 on cross-domain issue",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P1",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.9922,
+    "predicted_resolution_time_minutes": 500.73,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E015"
+    },
+    "suggested_engineer": "E004",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Motherboard replaced.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0001263",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 563.22,
+          "similarity_score": 0.9878770544048553
+        },
+        {
+          "year_ticket_id": "2023_T0000271",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 2506.88,
+          "similarity_score": 0.6857867871791457
+        },
+        {
+          "year_ticket_id": "2023_T0000871",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 179.18,
+          "similarity_score": 0.6839178838030967
+        }
+      ]
+    },
+    "scenario_id": "S16",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041019",
+    "ticket_created_timestamp": "2026-04-05 22:00:00",
+    "ticket_description": "After-hours P1 \u2014 E016 on-call rotation (night proxy)",
+    "ticket_status": "Resolved",
+    "actual_category": "Network",
+    "actual_priority": "P1",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E016"
+    },
+    "suggested_engineer": "E016",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003386",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 545.3,
+          "similarity_score": 0.9782432205921489
+        },
+        {
+          "year_ticket_id": "2023_T0006898",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 1272.33,
+          "similarity_score": 0.7246157986508568
+        },
+        {
+          "year_ticket_id": "2025_T0006478",
+          "issue_type": "Crash",
+          "resolution_notes": "Replaced PSU.",
+          "resolution_time_minutes": 3672.42,
+          "similarity_score": 0.6576977789661748
+        }
+      ]
+    },
+    "scenario_id": "S17",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041020",
+    "ticket_created_timestamp": "2026-04-07 08:00:00",
+    "ticket_description": "E011 first assigned \u2014 Server junior (1yr), could not diagnose",
+    "ticket_status": "Open",
+    "actual_category": "Hardware",
+    "actual_priority": "P2",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E011"
+    },
+    "suggested_engineer": "E011",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003190",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 1235.27,
+          "similarity_score": 0.9830390557717903
+        },
+        {
+          "year_ticket_id": "2024_T0002394",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2264.23,
+          "similarity_score": 0.662226825303019
+        },
+        {
+          "year_ticket_id": "2023_T0006551",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2352.0,
+          "similarity_score": 0.6604078324058106
+        }
+      ]
+    },
+    "scenario_id": "S18",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041020",
+    "ticket_created_timestamp": "2026-04-07 09:00:00",
+    "ticket_description": "Reassigned to E019 (4yr) \u2014 partial investigation done",
+    "ticket_status": "Open",
+    "actual_category": "Hardware",
+    "actual_priority": "P2",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E019"
+    },
+    "suggested_engineer": "E019",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003190",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 1235.27,
+          "similarity_score": 0.9830390557717903
+        },
+        {
+          "year_ticket_id": "2024_T0002394",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2264.23,
+          "similarity_score": 0.662226825303019
+        },
+        {
+          "year_ticket_id": "2023_T0006551",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2352.0,
+          "similarity_score": 0.6604078324058106
+        }
+      ]
+    },
+    "scenario_id": "S18",
+    "assignment_type": "MANUAL"
+  },
+  {
+    "year_ticket_id": "T00041020",
+    "ticket_created_timestamp": "2026-04-07 11:30:00",
+    "ticket_description": "Final escalation to E008 (10yr) \u2014 resolved definitively",
+    "ticket_status": "Resolved",
+    "actual_category": "Hardware",
+    "actual_priority": "P2",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E008"
+    },
+    "suggested_engineer": "E008",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003190",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 1235.27,
+          "similarity_score": 0.9830390557717903
+        },
+        {
+          "year_ticket_id": "2024_T0002394",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2264.23,
+          "similarity_score": 0.662226825303019
+        },
+        {
+          "year_ticket_id": "2023_T0006551",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2352.0,
+          "similarity_score": 0.6604078324058106
+        }
+      ]
+    },
+    "scenario_id": "S18",
+    "assignment_type": "ESCALATION"
+  },
+  {
+    "year_ticket_id": "T00041021",
+    "ticket_created_timestamp": "2026-04-08 07:00:00",
+    "ticket_description": "E001 quick P3 \u2014 resolved fast",
+    "ticket_status": "Resolved",
+    "actual_category": "Network",
+    "actual_priority": "P3",
+    "actual_issue_type": "Access",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Access",
+    "predicted_priority": "P3",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E001"
+    },
+    "suggested_engineer": "E001",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0005716",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1178.05,
+          "similarity_score": 0.9805859006762623
+        },
+        {
+          "year_ticket_id": "2023_T0003604",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 539.95,
+          "similarity_score": 0.7655033428954913
+        },
+        {
+          "year_ticket_id": "2023_T0003226",
+          "issue_type": "Access",
+          "resolution_notes": "Reset LDAP sync.",
+          "resolution_time_minutes": 1220.7,
+          "similarity_score": 0.7487909890427439
+        }
+      ]
+    },
+    "scenario_id": "S19",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041022",
+    "ticket_created_timestamp": "2026-04-08 09:05:00",
+    "ticket_description": "E001 immediately re-queued \u2014 new P2 Network Slow assigned at 09:05",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P2",
+    "actual_issue_type": "Slow",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Slow",
+    "predicted_priority": "P2",
+    "classification_confidence": 0.9964,
+    "predicted_resolution_time_minutes": 489.42,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E001"
+    },
+    "suggested_engineer": "E012",
+    "assigned_team": "Server",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Optimized routing tables.",
+      "recommended_engineer_group": "Server",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0000190",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 757.32,
+          "similarity_score": 0.9848905564207788
+        },
+        {
+          "year_ticket_id": "2025_T0003877",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 1303.37,
+          "similarity_score": 0.6877469631079387
+        },
+        {
+          "year_ticket_id": "2023_T0000027",
+          "issue_type": "Slow",
+          "resolution_notes": "Optimized routing tables.",
+          "resolution_time_minutes": 346.87,
+          "similarity_score": 0.6687231338409785
+        }
+      ]
+    },
+    "scenario_id": "S19",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041023",
+    "ticket_created_timestamp": "2026-04-09 07:00:00",
+    "ticket_description": "P1-A: E008 assigned \u2014 Server Crash; highest priority",
+    "ticket_status": "Resolved",
+    "actual_category": "Hardware",
+    "actual_priority": "P1",
+    "actual_issue_type": "Crash",
+    "predicted_category": "Hardware",
+    "predicted_issue_type": "Crash",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.0,
+    "predicted_resolution_time_minutes": null,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E008"
+    },
+    "suggested_engineer": "E008",
+    "assigned_team": null,
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": null,
+      "recommended_engineer_group": null,
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0003190",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 1235.27,
+          "similarity_score": 0.9830390557717903
+        },
+        {
+          "year_ticket_id": "2024_T0002394",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2264.23,
+          "similarity_score": 0.662226825303019
+        },
+        {
+          "year_ticket_id": "2023_T0006551",
+          "issue_type": "Crash",
+          "resolution_notes": "Cleaned cooling fans.",
+          "resolution_time_minutes": 2352.0,
+          "similarity_score": 0.6604078324058106
+        }
+      ]
+    },
+    "scenario_id": "S20",
+    "assignment_type": "AUTO"
+  },
+  {
+    "year_ticket_id": "T00041024",
+    "ticket_created_timestamp": "2026-04-09 07:05:00",
+    "ticket_description": "P1-B: E008 co-assigned second P1 \u2014 Network Failure, escalated",
+    "ticket_status": "Open",
+    "actual_category": "Network",
+    "actual_priority": "P1",
+    "actual_issue_type": "Failure",
+    "predicted_category": "Network",
+    "predicted_issue_type": "Failure",
+    "predicted_priority": "P1",
+    "classification_confidence": 0.997,
+    "predicted_resolution_time_minutes": 514.1,
+    "sla_breach_probability": 0.0,
+    "sla_risk_band": "OnTrack",
+    "sla_breach_tier": "Low",
+    "assigned_engineer": {
+      "engineer_id": "E008"
+    },
+    "suggested_engineer": "E005",
+    "assigned_team": "Network",
+    "manager_review_flag": false,
+    "recommendations": {
+      "suggested_resolution": "Replaced faulty NIC and patched firmware.",
+      "recommended_engineer_group": "Network",
+      "similar_tickets": [
+        {
+          "year_ticket_id": "2023_T0001263",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 563.22,
+          "similarity_score": 0.9878770544048553
+        },
+        {
+          "year_ticket_id": "2023_T0000271",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 2506.88,
+          "similarity_score": 0.6857867871791457
+        },
+        {
+          "year_ticket_id": "2023_T0000871",
+          "issue_type": "Failure",
+          "resolution_notes": "Replaced faulty NIC and patched firmware.",
+          "resolution_time_minutes": 179.18,
+          "similarity_score": 0.6839178838030967
+        }
+      ]
+    },
+    "scenario_id": "S20",
+    "assignment_type": "MANUAL"
+  }
+]

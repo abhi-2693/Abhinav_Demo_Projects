@@ -1,0 +1,13 @@
+metric,value
+total_tickets,"22,476"
+sla_breach_count,"8,906"
+sla_compliance_rate,60.4%
+predicted_breaches,"21,750"
+high_risk_count,0
+medium_risk_count,"21,750"
+avg_predicted_breach_prob,0.5000
+model_name,CatBoost
+model_version,improved_v2
+model_roc_auc,0.5114
+optimal_threshold,0.4992
+extra_features_count,19

@@ -1,0 +1,42 @@
+[
+  {
+    "schedule_id": "SCH_20260507002528",
+    "asset_id": "AID_055",
+    "action": "reboot_and_patch",
+    "risk_at_schedule": 50,
+    "days_remaining": 0.0,
+    "scheduled_window": "2026-05-08 02:00",
+    "created_at": "2026-05-07 00:25:28",
+    "status": "SCHEDULED"
+  },
+  {
+    "schedule_id": "SCH_20260507002543",
+    "asset_id": "AID_055",
+    "action": "reboot_and_patch",
+    "risk_at_schedule": 50,
+    "days_remaining": 0.0,
+    "scheduled_window": "2026-05-08 02:00",
+    "created_at": "2026-05-07 00:25:43",
+    "status": "SCHEDULED"
+  },
+  {
+    "schedule_id": "SCH_20260509092605",
+    "asset_id": "AID_055",
+    "action": "reboot_and_patch",
+    "risk_at_schedule": 50,
+    "days_remaining": 0.0,
+    "scheduled_window": "2026-05-10 02:00",
+    "created_at": "2026-05-09 09:26:05",
+    "status": "SCHEDULED"
+  },
+  {
+    "schedule_id": "SCH_20260509180614",
+    "asset_id": "AID_055",
+    "action": "reboot_and_patch",
+    "risk_at_schedule": 50,
+    "days_remaining": 0.0,
+    "scheduled_window": "2026-05-10 02:00",
+    "created_at": "2026-05-09 18:06:14",
+    "status": "SCHEDULED"
+  }
+]

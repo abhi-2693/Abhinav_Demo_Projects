@@ -1,0 +1,7 @@
+metric,value
+total_tickets_3yr,"22,491"
+avg_resolution_time_minutes,1614
+sla_breach_rate_pct,39.6%
+avg_first_response_minutes,32
+high_sla_risk_tickets,0
+available_engineers,15/20

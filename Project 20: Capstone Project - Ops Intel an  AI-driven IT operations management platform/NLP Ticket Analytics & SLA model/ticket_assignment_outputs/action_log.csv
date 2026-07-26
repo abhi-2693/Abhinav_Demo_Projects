@@ -1,0 +1,38 @@
+logged_at,action_type,ticket_id,actor,target_engineer,scenario_id,detail
+2026-05-20 04:07:38,MODULE_START,*,ai_engine_v1,,,Module 3 started. Open tickets: 16
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041002,ai_engine_v1,E012,S02,Top: E012 (score=0.8468) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041002,manager,E012,S02,Reassignment — previous engineer overloaded. E012 assigned (Network/P2).
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041003,ai_engine_v1,E012,S03,Top: E012 (score=0.8486) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041003,manager,E012,S03,Escalation to senior E012 — junior could not resolve P1 Network Crash.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041005,ai_engine_v1,E005,S05,Top: E005 (score=0.8471) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041005,manager,E005,S05,Skill-mismatch corrected. E005 reassigned — correct spec for Network.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041006,ai_engine_v1,E012,S06,Top: E012 (score=0.8468) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041006,manager,E012,S06,"Engineer unavailable. After leave check, E012 manually assigned."
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041007,ai_engine_v1,E012,S07,Top: E012 (score=0.8468) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041007,ai_engine_v1,E012,S07,Multi-ticket load detected. E012 at capacity — manager flagged.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041008,ai_engine_v1,E005,S07,Top: E005 (score=0.8471) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041008,ai_engine_v1,E005,S07,Multi-ticket load detected. E005 at capacity — manager flagged.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041009,ai_engine_v1,E005,S07,Top: E005 (score=0.8565) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041009,ai_engine_v1,E005,S07,Multi-ticket load detected. E005 at capacity — manager flagged.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041011,ai_engine_v1,E005,S09,Top: E005 (score=0.8471) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041011,ai_engine_v1,E005,S09,P4 low priority — queued. E005 assigned in afternoon slot.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041012,ai_engine_v1,E005,S10,Top: E005 (score=0.8565) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041012,ai_engine_v1,E005,S10,Cross-spec cover. E005 (Server) covering Network queue — pool full.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041014,ai_engine_v1,E004,S12,Top: E004 (score=0.8524) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041014,manager,E004,S12,Ticket reopened. E004 reassigned — fresh approach for Hardware Crash.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041015,ai_engine_v1,E012,S13,Top: E012 (score=0.8468) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041015,manager,E012,S13,Manager override. E012 selected — preferred for Network Slow tickets.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041016,ai_engine_v1,E005,S14,Top: E005 (score=0.8471) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041016,ai_engine_v1,E005,S14,Fallback — all preferred engineers busy. E005 next available.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041018,ai_engine_v1,E004,S16,Top: E004 (score=0.8519) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041018,ai_engine_v1,E004,S16,Co-assignment — complex ticket. E004 as primary/secondary.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041018,ai_engine_v1,E005,S16,Top: E005 (score=0.8565) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041018,ai_engine_v1,E005,S16,Co-assignment — complex ticket. E005 as primary/secondary.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041022,ai_engine_v1,E012,S19,Top: E012 (score=0.8468) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041022,ai_engine_v1,E012,S19,Engineer freed — E012 immediately assigned next ticket in queue.
+2026-05-20 04:07:47,SUGGESTION_GENERATED,T00041024,ai_engine_v1,E005,S20,Top: E005 (score=0.8565) | breach=Low
+2026-05-20 04:07:47,ASSIGNMENT_PROCESSED,T00041024,ai_engine_v1,E005,S20,Bandwidth stress — E005 handling 2 simultaneous P1s. Manager flagged.
+2026-05-20 04:07:47,BATCH_COMPLETE,*,ai_engine_v1,,,Pipeline complete. 16 tickets processed.
+2026-05-20 04:08:02,FILE_SAVED,*,ai_engine_v1,,,ticket_assignment_synthetic.xlsx saved with all updates
+2026-05-20 04:08:12,JSON_EXPORT,*,ai_engine_v1,,,33 tickets exported to JSON
+2026-05-20 04:08:16,MODULE_END,*,ai_engine_v1,,,Module 3 complete. Log entries: 36

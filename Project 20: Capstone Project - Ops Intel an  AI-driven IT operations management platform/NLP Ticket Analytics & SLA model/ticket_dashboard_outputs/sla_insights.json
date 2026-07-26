@@ -1,0 +1,58 @@
+[
+  {
+    "insight_type": "Elevated SLA Risk",
+    "severity": "Warning",
+    "year_ticket_id": "2023_T0000417",
+    "ticket_priority": "P1",
+    "breach_probability": 0.5099,
+    "risk_tier": "Medium",
+    "insight_text": "P1 ticket 2023_T0000417 at medium breach risk (51.0%). Monitor response time closely.",
+    "action": "Monitor \u2014 Check Engineer Workload"
+  },
+  {
+    "insight_type": "Elevated SLA Risk",
+    "severity": "Warning",
+    "year_ticket_id": "2024_T0007892",
+    "ticket_priority": "P1",
+    "breach_probability": 0.5095,
+    "risk_tier": "Medium",
+    "insight_text": "P1 ticket 2024_T0007892 at medium breach risk (50.9%). Monitor response time closely.",
+    "action": "Monitor \u2014 Check Engineer Workload"
+  },
+  {
+    "insight_type": "Elevated SLA Risk",
+    "severity": "Warning",
+    "year_ticket_id": "2023_T0004009",
+    "ticket_priority": "P1",
+    "breach_probability": 0.5095,
+    "risk_tier": "Medium",
+    "insight_text": "P1 ticket 2023_T0004009 at medium breach risk (50.9%). Monitor response time closely.",
+    "action": "Monitor \u2014 Check Engineer Workload"
+  },
+  {
+    "insight_type": "Elevated SLA Risk",
+    "severity": "Warning",
+    "year_ticket_id": "2023_T0003596",
+    "ticket_priority": "P1",
+    "breach_probability": 0.5095,
+    "risk_tier": "Medium",
+    "insight_text": "P1 ticket 2023_T0003596 at medium breach risk (50.9%). Monitor response time closely.",
+    "action": "Monitor \u2014 Check Engineer Workload"
+  },
+  {
+    "insight_type": "Elevated SLA Risk",
+    "severity": "Warning",
+    "year_ticket_id": "2023_T0005419",
+    "ticket_priority": "P1",
+    "breach_probability": 0.5088,
+    "risk_tier": "Medium",
+    "insight_text": "P1 ticket 2023_T0005419 at medium breach risk (50.9%). Monitor response time closely.",
+    "action": "Monitor \u2014 Check Engineer Workload"
+  },
+  {
+    "insight_type": "Compliance Alert",
+    "severity": "Warning",
+    "insight_text": "SLA compliance for 2025-12 is 62.0% \u2014 below 99% target. 0 tickets at high breach risk.",
+    "action": "Review Engineer Allocation"
+  }
+]

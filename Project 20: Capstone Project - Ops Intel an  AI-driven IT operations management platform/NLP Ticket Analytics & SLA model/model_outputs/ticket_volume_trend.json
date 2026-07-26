@@ -1,0 +1,37 @@
+[
+  {
+    "day": "Friday",
+    "total": 3149,
+    "resolved": 3148
+  },
+  {
+    "day": "Monday",
+    "total": 3317,
+    "resolved": 3314
+  },
+  {
+    "day": "Saturday",
+    "total": 3156,
+    "resolved": 3153
+  },
+  {
+    "day": "Sunday",
+    "total": 3179,
+    "resolved": 3177
+  },
+  {
+    "day": "Thursday",
+    "total": 3184,
+    "resolved": 3183
+  },
+  {
+    "day": "Tuesday",
+    "total": 3258,
+    "resolved": 3258
+  },
+  {
+    "day": "Wednesday",
+    "total": 3226,
+    "resolved": 3225
+  }
+]
