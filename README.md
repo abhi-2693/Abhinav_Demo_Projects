@@ -27,7 +27,7 @@ It is intended to showcase practical skills and applied learnings across statist
 - [Project 18: Forecasting App — Florida Energy Demand Forecasting (Streamlit + Docker)](./Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting/)
 - [Project 19: Deep Learning — Classification & Segmentation (LGAI)](./Project%2019:%20Deep%20Learning%20—%20Classification%20&%20Segmentation/)
 - [Project 20: Capstone Project - Ops Intel: An AI-driven IT operations management platform](./Project%2020:%20Capstone%20Project%20-%20Ops%20Intel%20an%20AI-driven%20IT%20operations%20management%20platform/)
-- [Project 21: Experiment X - Production Grade Experimentation platform ( Ecommerce ) [Work In Progress]](./Project%2021:%20Experiment%20X%20-%20Production%20Grade%20Experimentation%20platform%20(%20Ecommerce%20))
+- [Project 21: Experiment X - Production Grade Experimentation platform ( Ecommerce ) [Work In Progress]](./Project%2020:%20Capstone%20Project%20-%20Ops%20Intel%20an%20%20AI-driven%20IT%20operations%20management%20platform/))
 
 ---
 
